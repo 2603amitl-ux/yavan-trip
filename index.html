@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>טיול ליוון | 18.9–27.9</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0D5EAF">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#/" class="logo">🇬🇷 טיול ליוון <span class="logo-sub">18.9 – 27.9</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#/">בית</a>
+      <a href="#/map">מפה</a>
+      <a href="#/distances">מרחקים</a>
+      <a href="#/itinerary">בונה מסלול</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="תפריט">☰</button>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-footer">
+  <p>נבנה עבור הטיול המשותף ביוון · 8 ימים, אתונה → צפון יוון וחזרה</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

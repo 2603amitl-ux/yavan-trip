@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>העברת מסלולים בין אתרים</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .migrate-wrap { max-width: 640px; margin: 0 auto; padding: 24px 16px 60px; }
+  .migrate-wrap h2 { margin-top: 32px; }
+  .migrate-wrap textarea {
+    width: 100%; min-height: 140px; box-sizing: border-box; padding: 10px;
+    font-family: monospace; font-size: .85rem; border: 1px solid #ccc; border-radius: 8px;
+  }
+  .migrate-actions { margin: 12px 0; display: flex; gap: 10px; flex-wrap: wrap; }
+  #exportStatus, #importStatus { margin-top: 10px; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html#/" class="logo">🇬🇷 טיול ליוון <span class="logo-sub">18.9 – 27.9</span></a>
+  </div>
+</header>
+
+<main class="migrate-wrap">
+  <h1>העברת מסלולים בין אתרים</h1>
+  <p>דף חד-פעמי להעברת המסלולים והאטרקציות שהוספת, מהאתר הישן (במחשב) לאתר החדש (באינטרנט) — או להפך.</p>
+
+  <h2>1. באתר שבו המסלולים שמורים: ייצוא</h2>
+  <button class="btn" id="exportBtn">📤 ייצא והעתק ללוח</button>
+  <div id="exportStatus"></div>
+
+  <h2>2. באתר השני: ייבוא</h2>
+  <p>הדביקי כאן (Ctrl+V) את מה שהעתקת בשלב 1, ואז לחצי על הכפתור:</p>
+  <textarea id="importBox" placeholder="הדביקי כאן..."></textarea>
+  <div class="migrate-actions">
+    <button class="btn" id="importBtn">📥 ייבא לאתר הזה</button>
+  </div>
+  <div id="importStatus"></div>
+</main>
+
+<script>
+  const KEYS = ['greece-trip-plans-v1', 'greece-trip-custom-attractions-v1'];
+
+  function showStatus(el, message, isError) {
+    el.innerHTML = `<div class="callout ${isError ? 'callout-danger' : 'callout-info'}">
+      <span class="callout-icon">${isError ? '⚠️' : '✅'}</span><div>${message}</div>
+    </div>`;
+  }
+
+  document.getElementById('exportBtn').addEventListener('click', async () => {
+    const statusEl = document.getElementById('exportStatus');
+    const dump = {};
+    KEYS.forEach((k) => {
+      const v = localStorage.getItem(k);
+      if (v !== null) dump[k] = v;
+    });
+    const text = JSON.stringify(dump);
+    if (Object.keys(dump).length === 0) {
+      showStatus(statusEl, 'לא נמצאו מסלולים שמורים באתר הזה.', true);
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(text);
+      showStatus(statusEl, 'הועתק ללוח! עכשיו עברי לאתר השני והדביקי בתיבה למטה.');
+    } catch (e) {
+      document.getElementById('importBox').value = text;
+      showStatus(statusEl, 'לא הצלחתי להעתיק אוטומטית — סימנתי את הטקסט בתיבה למטה, סמני הכל (Ctrl+A) והעתיקי ידנית (Ctrl+C).', true);
+    }
+  });
+
+  document.getElementById('importBtn').addEventListener('click', () => {
+    const statusEl = document.getElementById('importStatus');
+    const raw = document.getElementById('importBox').value.trim();
+    if (!raw) {
+      showStatus(statusEl, 'התיבה ריקה — קודם הדביקי את הנתונים.', true);
+      return;
+    }
+    try {
+      const dump = JSON.parse(raw);
+      let count = 0;
+      KEYS.forEach((k) => {
+        if (dump[k]) { localStorage.setItem(k, dump[k]); count++; }
+      });
+      if (count === 0) {
+        showStatus(statusEl, 'לא זוהו נתוני מסלולים בטקסט שהודבק.', true);
+        return;
+      }
+      showStatus(statusEl, `יובאו הנתונים! עוברת לעמוד בונה המסלול...`);
+      setTimeout(() => { location.href = 'index.html#/itinerary'; }, 1200);
+    } catch (e) {
+      showStatus(statusEl, 'הטקסט שהודבק לא תקין. ודאי שהעתקת הכל משלב 1.', true);
+    }
+  });
+</script>
+</body>
+</html>

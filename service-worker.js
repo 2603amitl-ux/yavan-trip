@@ -1,4 +1,4 @@
-const CACHE_NAME = 'yavan-trip-v4';
+const CACHE_NAME = 'yavan-trip-v5';
 const BASE = new URL('.', self.location.href).href;
 
 const APP_SHELL = [
@@ -26,14 +26,24 @@ function collectImageUrls(node, out) {
   }
 }
 
+// { cache: 'reload' } forces a real network round-trip, bypassing the browser's ordinary HTTP
+// cache — without it, re-populating our own Cache Storage on install could silently pull in
+// whatever GitHub Pages already had sitting in the HTTP cache from a previous visit.
+function freshFetch(url) {
+  return fetch(new Request(url, { cache: 'reload' }));
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    await cache.addAll(APP_SHELL);
+    await Promise.all(APP_SHELL.map(async (url) => {
+      const res = await freshFetch(url);
+      await cache.put(url, res);
+    }));
 
     try {
-      const res = await fetch(BASE + 'data/locations.json');
-      const data = await res.json();
+      const res = await freshFetch(BASE + 'data/locations.json');
+      const data = await res.clone().json();
       const imageUrls = [];
       collectImageUrls(data, imageUrls);
       await Promise.allSettled(imageUrls.map(async (url) => {
@@ -56,9 +66,11 @@ self.addEventListener('activate', (event) => {
   })());
 });
 
-// HTML pages: network-first, so a redeployed page is picked up immediately while online;
-// falls back to cache so the app still opens offline. Everything else (JS/CSS/JSON/images)
-// is cache-first, since those rarely change and offline speed matters more there.
+// HTML pages: network-first (bypassing HTTP cache too), so a redeployed page is picked up
+// immediately while online; falls back to our cache so the app still opens offline.
+// Everything else (JS/CSS/JSON/images) is cache-first, since those rarely change and offline
+// speed matters more there. All cache reads/writes go through our own named cache explicitly
+// (never the global caches.match) so a leftover older-named cache can never be served by mistake.
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   if (!event.request.url.startsWith('http')) return;
@@ -70,16 +82,16 @@ self.addEventListener('fetch', (event) => {
 
     if (isDocument) {
       try {
-        const res = await fetch(event.request);
+        const res = await freshFetch(event.request.url);
         cache.put(event.request, res.clone());
         return res;
       } catch (e) {
-        const cached = await caches.match(event.request);
+        const cached = await cache.match(event.request);
         return cached || Response.error();
       }
     }
 
-    const cached = await caches.match(event.request);
+    const cached = await cache.match(event.request);
     if (cached) return cached;
     try {
       const res = await fetch(event.request);

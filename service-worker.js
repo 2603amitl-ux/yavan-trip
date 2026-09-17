@@ -1,8 +1,8 @@
-const CACHE_NAME = 'yavan-trip-v1';
+const CACHE_NAME = 'yavan-trip-v2';
 const BASE = new URL('.', self.location.href).href;
 
 const APP_SHELL = [
-  '', 'index.html', 'manifest.json', 'icon.svg', 'css/style.css',
+  '', 'index.html', 'migrate.html', 'manifest.json', 'icon.svg', 'css/style.css',
   'js/app.js', 'js/util.js', 'js/store.js',
   'js/views/home.js', 'js/views/map.js', 'js/views/distances.js',
   'js/views/location.js', 'js/views/itinerary.js',
@@ -55,21 +55,37 @@ self.addEventListener('activate', (event) => {
   })());
 });
 
+// HTML pages: network-first, so a redeployed page is picked up immediately while online;
+// falls back to cache so the app still opens offline. Everything else (JS/CSS/JSON/images)
+// is cache-first, since those rarely change and offline speed matters more there.
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   if (!event.request.url.startsWith('http')) return;
 
+  const isDocument = event.request.mode === 'navigate' || event.request.destination === 'document';
+
   event.respondWith((async () => {
+    const cache = await caches.open(CACHE_NAME);
+
+    if (isDocument) {
+      try {
+        const res = await fetch(event.request);
+        cache.put(event.request, res.clone());
+        return res;
+      } catch (e) {
+        const cached = await caches.match(event.request);
+        return cached || Response.error();
+      }
+    }
+
     const cached = await caches.match(event.request);
     if (cached) return cached;
-
     try {
       const res = await fetch(event.request);
-      const cache = await caches.open(CACHE_NAME);
       cache.put(event.request, res.clone());
       return res;
     } catch (e) {
-      return cached || Response.error();
+      return Response.error();
     }
   })());
 });

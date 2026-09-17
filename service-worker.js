@@ -1,8 +1,9 @@
-const CACHE_NAME = 'yavan-trip-v2';
+const CACHE_NAME = 'yavan-trip-v3';
 const BASE = new URL('.', self.location.href).href;
 
 const APP_SHELL = [
   '', 'index.html', 'migrate.html', 'manifest.json', 'icon.svg', 'css/style.css',
+  'js/vendor/qrcode.js',
   'js/app.js', 'js/util.js', 'js/store.js',
   'js/views/home.js', 'js/views/map.js', 'js/views/distances.js',
   'js/views/location.js', 'js/views/itinerary.js',

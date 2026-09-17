@@ -1,4 +1,5 @@
 import { haversineKm, TRIP_DATES } from './util.js';
+import { DEFAULT_ITINERARY } from './default-itinerary.js';
 
 let _locationsBase = null;
 let _travelTimes = null;
@@ -95,7 +96,21 @@ function makePlanId() {
   return 'plan_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 7);
 }
 
+// The trip's pre-planned itinerary, bundled with the site (see default-itinerary.js) so it's
+// there from the first visit on any device — no per-device setup needed. A device only falls
+// back to a blank plan if that bundled data is ever missing entirely.
 function buildDefaultState() {
+  if (DEFAULT_ITINERARY && DEFAULT_ITINERARY.plans && Object.keys(DEFAULT_ITINERARY.plans).length) {
+    const src = JSON.parse(JSON.stringify(DEFAULT_ITINERARY));
+    const order = Array.isArray(src.order) ? src.order.filter(id => src.plans[id]) : Object.keys(src.plans);
+    const plans = {};
+    order.forEach(id => {
+      const p = src.plans[id] || {};
+      plans[id] = { id, name: p.name || 'מסלול', days: sanitizeDays(p.days) };
+    });
+    const activeId = order.includes(src.activeId) ? src.activeId : order[0];
+    return { activeId, order, plans };
+  }
   const id = makePlanId();
   return { activeId: id, order: [id], plans: { [id]: { id, name: 'מסלול 1', days: buildDefaultDays() } } };
 }

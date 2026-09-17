@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>העברת מסלולים בין מכשירים</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .migrate-wrap { max-width: 640px; margin: 0 auto; padding: 24px 16px 60px; }
+  .migrate-wrap h2 { margin-top: 32px; }
+  .migrate-wrap textarea {
+    width: 100%; min-height: 140px; box-sizing: border-box; padding: 10px;
+    font-family: monospace; font-size: .85rem; border: 1px solid #ccc; border-radius: 8px;
+  }
+  .migrate-actions { margin: 12px 0; display: flex; gap: 10px; flex-wrap: wrap; }
+  #exportStatus, #importStatus { margin-top: 10px; }
+  #qrBox { margin-top: 16px; text-align: center; }
+  #qrCode { display: inline-block; border: 1px solid #ddd; border-radius: 8px; background: #fff; padding: 8px; }
+  #qrCode svg { display: block; width: 260px; height: 260px; }
+  details.manual-fallback { margin-top: 16px; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html#/" class="logo">🇬🇷 טיול ליוון <span class="logo-sub">18.9 – 27.9</span></a>
+  </div>
+</header>
+
+<main class="migrate-wrap">
+  <h1>העברת מסלולים בין מכשירים</h1>
+  <p>דף חד-פעמי להעברת המסלולים והאטרקציות שהוספת ממכשיר אחד (למשל המחשב) למכשיר אחר (למשל הטלפון).</p>
+
+  <h2>1. במכשיר שבו המסלולים שמורים</h2>
+  <button class="btn" id="exportBtn">📤 הכן קוד להעברה</button>
+  <div id="exportStatus"></div>
+  <div id="qrBox" style="display:none">
+    <p>סרקי את הקוד הזה <b>במצלמה של הטלפון</b> — זה יפתח את האתר ויעביר את המסלולים אוטומטית:</p>
+    <div id="qrCode"></div>
+  </div>
+
+  <details class="manual-fallback">
+    <summary>אין מצלמה / הקוד לא נסרק? העברה ידנית</summary>
+    <h2>2. במכשיר השני</h2>
+    <p>הדביקי כאן (Ctrl+V) את מה שהעתקת בשלב 1, ואז לחצי על הכפתור:</p>
+    <textarea id="importBox" placeholder="הדביקי כאן..."></textarea>
+    <div class="migrate-actions">
+      <button class="btn" id="importBtn">📥 ייבא לאתר הזה</button>
+    </div>
+    <div id="importStatus"></div>
+  </details>
+</main>
+
+<script src="js/vendor/qrcode.js"></script>
+<script>
+  const KEYS = ['greece-trip-plans-v1', 'greece-trip-custom-attractions-v1'];
+
+  function showStatus(el, message, isError) {
+    el.innerHTML = `<div class="callout ${isError ? 'callout-danger' : 'callout-info'}">
+      <span class="callout-icon">${isError ? '⚠️' : '✅'}</span><div>${message}</div>
+    </div>`;
+  }
+
+  function collectDump() {
+    const dump = {};
+    KEYS.forEach((k) => {
+      const v = localStorage.getItem(k);
+      if (v !== null) dump[k] = v;
+    });
+    return dump;
+  }
+
+  function applyDump(dump) {
+    let count = 0;
+    KEYS.forEach((k) => {
+      if (dump[k]) { localStorage.setItem(k, dump[k]); count++; }
+    });
+    return count;
+  }
+
+  document.getElementById('exportBtn').addEventListener('click', async () => {
+    const statusEl = document.getElementById('exportStatus');
+    const dump = collectDump();
+    const text = JSON.stringify(dump);
+    if (Object.keys(dump).length === 0) {
+      showStatus(statusEl, 'לא נמצאו מסלולים שמורים במכשיר הזה.', true);
+      return;
+    }
+
+    const importUrl = location.origin + location.pathname + '#data=' + encodeURIComponent(text);
+    const qrBox = document.getElementById('qrBox');
+    const qrCodeEl = document.getElementById('qrCode');
+
+    let qrOk = true;
+    try {
+      const qr = qrcode(0, 'L');
+      qr.addData(importUrl);
+      qr.make();
+      qrCodeEl.innerHTML = qr.createSvgTag({ scalable: true });
+      qrBox.style.display = '';
+    } catch (e) {
+      qrOk = false;
+      qrBox.style.display = 'none';
+    }
+
+    try {
+      await navigator.clipboard.writeText(text);
+      showStatus(statusEl, qrOk
+        ? 'מוכן! אפשר לסרוק את הקוד למטה, או שהנתונים הועתקו ללוח להעברה ידנית.'
+        : 'המסלול גדול מדי לקוד QR — הנתונים הועתקו ללוח, השתמשי בהעברה הידנית למטה.');
+    } catch (e) {
+      document.getElementById('importBox').value = text;
+      showStatus(statusEl, qrOk
+        ? 'מוכן! אפשר לסרוק את הקוד למטה. (העתקה אוטומטית ללוח לא הצליחה — הטקסט מופיע למטה תחת "העברה ידנית".)'
+        : 'המסלול גדול מדי לקוד QR — הטקסט מופיע למטה תחת "העברה ידנית", סמני הכל והעתיקי.');
+    }
+  });
+
+  document.getElementById('importBtn').addEventListener('click', () => {
+    const statusEl = document.getElementById('importStatus');
+    const raw = document.getElementById('importBox').value.trim();
+    if (!raw) {
+      showStatus(statusEl, 'התיבה ריקה — קודם הדביקי את הנתונים.', true);
+      return;
+    }
+    try {
+      const dump = JSON.parse(raw);
+      const count = applyDump(dump);
+      if (count === 0) {
+        showStatus(statusEl, 'לא זוהו נתוני מסלולים בטקסט שהודבק.', true);
+        return;
+      }
+      showStatus(statusEl, 'יובאו הנתונים! עוברת לעמוד בונה המסלול...');
+      setTimeout(() => { location.href = 'index.html#/itinerary'; }, 1200);
+    } catch (e) {
+      showStatus(statusEl, 'הטקסט שהודבק לא תקין. ודאי שהעתקת הכל משלב 1.', true);
+    }
+  });
+
+  // Opened via a scanned QR code or shared link: import immediately, no clicks needed.
+  (function autoImportFromHash() {
+    const hash = location.hash;
+    if (!hash.startsWith('#data=')) return;
+    try {
+      const dump = JSON.parse(decodeURIComponent(hash.slice('#data='.length)));
+      const count = applyDump(dump);
+      document.querySelector('main').insertAdjacentHTML('afterbegin',
+        `<div class="callout callout-info"><span class="callout-icon">✅</span><div>${count > 0 ? 'המסלולים יובאו בהצלחה! עוברת לעמוד בונה המסלול...' : 'לא נמצאו נתונים תקינים בקישור.'}</div></div>`);
+      if (count > 0) setTimeout(() => { location.href = 'index.html#/itinerary'; }, 1500);
+    } catch (e) {
+      document.querySelector('main').insertAdjacentHTML('afterbegin',
+        '<div class="callout callout-danger"><span class="callout-icon">⚠️</span><div>הקישור פגום, נסי שוב.</div></div>');
+    }
+  })();
+</script>
+</body>
+</html>

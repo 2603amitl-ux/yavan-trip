@@ -1,0 +1,15 @@
+{
+  "name": "טיול ליוון 18.9–27.9",
+  "short_name": "טיול ליוון",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0D5EAF",
+  "theme_color": "#0D5EAF",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "he",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

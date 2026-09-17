@@ -1,0 +1,2332 @@
+[
+  {
+    "id": "athens",
+    "name": "אתונה",
+    "region": "אטיקה",
+    "coords": [
+      37.9755,
+      23.7348
+    ],
+    "summary": "עיר הבירה התוססת של יוון — אקרופוליס, שכונות היסטוריות ציוריות, ואוכל רחוב מעולה. כאן גם נוחתים וגם ממריאים בסוף הטיול.",
+    "suggestedStay": "1.5–2 ימים",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Athens_Parthenon_Acropolis.jpg",
+    "attractions": [
+      {
+        "id": "acropolis",
+        "name": "האקרופוליס והפרתנון",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 180,
+        "coords": [
+          37.9717,
+          23.7261
+        ],
+        "description": "\"אקרופוליס\" פירושו פשוט \"העיר העליונה\" — גבעת סלע שבראשה בנו היוונים הקדומים את המקדשים החשובים ביותר שלהם. הפרתנון, המקדש הגדול במרכז, נבנה במאה ה-5 לפנה\"ס לכבוד האלה אתנה (אלת החוכמה, שעל שמה נקראת העיר). זהו כנראה המבנה המזוהה ביותר עם יוון העתיקה כולה, ומהמדרון ניתן לראות את כל אתונה המודרנית פרושה למטה.",
+        "tips": "נדרש כרטיס כניסה עם שעת הגעה מוזמנת מראש (דרך hhticket.gr) — מומלץ להזמין כשבוע מראש, ובקיץ עד 2-3 שבועות מראש. כרטיס רגיל €30, כרטיס משולב ל-7 אתרים (כולל האגורה העתיקה) €36. שעות קיץ 8:00–20:00. חדשות טובות לספטמבר 2026: פיגומי השיפוץ שכיסו את הפרתנון במשך כ-20 שנה הוסרו מהחזית המערבית באוקטובר 2025 — סיכוי טוב לראות את המבנה ללא הפרעות חזותיות. הגיעו מוקדם בבוקר כדי להימנע מעומס וחום.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/a1/Athens_Parthenon_Acropolis.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c6/Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2e/Acropolis_of_Athens_at_dusk.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/68/Athens_Acropolis_at_Daybreak.jpg"
+        ]
+      },
+      {
+        "id": "acropolis-museum",
+        "name": "מוזיאון האקרופוליס",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          37.9691,
+          23.7283
+        ],
+        "description": "מוזיאון מודרני מזכוכית ובטון למרגלות האקרופוליס, שנבנה במיוחד לאחסן את הפסלים והממצאים האמיתיים שהוצאו מהאתר (כדי להגן עליהם מזיהום אוויר). הקומה העליונה בנויה באותו כיוון בדיוק כמו הפרתנון, עם חלונות מהרצפה לתקרה שמביטים ישירות אליו — כך אפשר להשוות בין הפסלים המקוריים לבניין האמיתי במבט אחד.",
+        "tips": "משתלב מצוין כביקור המשך אחרי האקרופוליס עצמו.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/33/Acropolis_Museum_-_panoramio.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/84/Panorama_inside_Acropolis_Museum.jpg"
+        ]
+      },
+      {
+        "id": "temple-olympian-zeus",
+        "name": "מקדש זאוס האולימפי",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          37.9694,
+          23.7332
+        ],
+        "description": "זאוס היה מלך האלים ביוון העתיקה, וזה תוכנן להיות המקדש הגדול ביותר שלו בכל הארץ — הבנייה החלה ב-520 לפנה\"ס אך נמשכה יותר מ-600 שנה עד שהושלמה בתקופה הרומית. כיום נותרו רק 15 מתוך 104 העמודים המקוריים, אך הגודל העצום שלהם (מעל 17 מ' גובה) עדיין מרשים.",
+        "tips": "הליכה קצרה מהאקרופוליס, ליד שער אדריאנוס. שעות 8:00–19:00 בקיץ.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/ae/A_Corinthian_Column_of_the_Temple_of_Olympian_Zeus%2C_Athens%2C_Greece.jpg"
+        ]
+      },
+      {
+        "id": "panathenaic-stadium",
+        "name": "האצטדיון הפנאתנייקו (קלימרמרו)",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          37.9684,
+          23.7411
+        ],
+        "description": "האצטדיון היחיד בעולם הבנוי כולו משיש לבן. הוא ניצב על מקום אצטדיון יווני עתיק, אך נבנה מחדש בצורתו הנוכחית עבור המשחקים האולימפיים המודרניים הראשונים ב-1896 — כלומר כאן ממש התחילו האולימפיאדות של ימינו. אפשר לרדת למסלול ולשבת בספסלי השיש עצמם.",
+        "tips": "שעות 8:00–19:00 (מרץ–אוקטובר).",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/a6/20140410_70_Athens_Panathinaikon_Stadium_%2813824745253%29.jpg"
+        ]
+      },
+      {
+        "id": "lycabettus-hill",
+        "name": "גבעת ליקאביטוס",
+        "type": "hike",
+        "mustDo": false,
+        "durationMinutes": 90,
+        "coords": [
+          37.9778,
+          23.7417
+        ],
+        "hike": {
+          "km": 2,
+          "difficulty": "moderate",
+          "elevationGain": 200,
+          "start": "כיכר קולונאקי",
+          "end": "פסגת ליקאביטוס"
+        },
+        "description": "הגבעה הגבוהה ביותר במרכז אתונה (277 מ'), עם קפלה לבנה קטנה בפסגה. אפשר לטפס ברגל דרך יער אורנים או לעלות ברכבל. מהפסגה יש את הנוף הפנורמי הכי טוב על אתונה — כל העיר פרושה למטה, האקרופוליס נראה בבירור, והים באופק.",
+        "tips": "רכבל פועל כ-9:00 עד 2:30 לפנות בוקר, כל 30 דק', כ-€7 כיוון אחד. מומלץ לשקיעה. שימו לב: בקיץ יבש לפעמים סוגרים שבילי הליכה סביב הפסגה מטעמי סיכון שריפות — הרכבל ממשיך לפעול.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/d/da/Attica_06-13_Athens_47_View_from_Lycabettus_-_pano.jpg"
+        ]
+      },
+      {
+        "id": "plaka",
+        "name": "פלאקה",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 120,
+        "coords": [
+          37.9715,
+          23.7295
+        ],
+        "description": "השכונה העתיקה ביותר באתונה, למרגלות האקרופוליס — סמטאות שרדו כמעט ללא שינוי מתקופת השלטון העות'מאני והתקופה הניאו-קלאסית שאחריו. בתים לבנים, כנסיות ביזנטיות קטנות, בתי קפה. הכי כיף סתם לשוטט בלי רשימת מטרות ולתת לרחובות להוביל.",
+        "tips": "רחוב אדריאנו הוא הציר המרכזי; פינת לוסיקרטוס (סביב אנדרטת לוסיקרטס) מומלצת לקפה. הכי יפה אחר צהריים מאוחר ובשקיעה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/61/Plaka_district-Athens_37.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/8/85/Plaka_district-Athens_46.JPG"
+        ]
+      },
+      {
+        "id": "anafiotika",
+        "name": "אנאפיוטיקה",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 45,
+        "coords": [
+          37.9727,
+          23.7278
+        ],
+        "description": "רובע זעיר של בתים לבנים בסגנון קיקלדי (כמו באיים סנטוריני/מיקונוס), שנבנו במאה ה-19 על ידי פועלי בניין מהאי הקטן אנאפי שהובאו לבנות את ארמון המלך ונשארו להתגורר כאן, על המדרון הצפון-מזרחי של סלע האקרופוליס. ממש מרגיש כמו קטע מאי יווני שהושתל בלב הבירה.",
+        "tips": "משלבים בקלות עם ביקור בפלאקה. הכי יפה עם האור של אחר הצהריים המאוחר.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/b/be/Athens%2C_Anafiotika_11.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/7b/Anafiotika_from_Acropolis.jpg"
+        ]
+      },
+      {
+        "id": "syntagma-evzones",
+        "name": "כיכר סינטגמה והחלפת המשמר",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          37.9755,
+          23.7348
+        ],
+        "description": "הכיכר הראשית מול בניין הפרלמנט היווני, שבה שני חיילי משמר טקסי בשם \"אבזונים\" שומרים על קבר החייל האלמוני במדים מסורתיים ייחודיים (כולל חצאית מקופלת ב-400 קפלים, המסמלת 400 שנות שלטון עות'מאני). ההחלפה האיטית והמדויקת מתרחשת כל שעה, מסביב לשעון, בכניסה חופשית. בכל יום ראשון ב-11:00 יש טקס גדול יותר עם תזמורת צבאית.",
+        "tips": "כניסה חופשית, אין צורך בתיאום.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Evzones_at_Changing_of_the_Guard%2C_Syntagma_Square%2C_Athens.JPG"
+        ]
+      },
+      {
+        "id": "monastiraki",
+        "name": "מונאסטיראקי",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 90,
+        "coords": [
+          37.9765,
+          23.7256
+        ],
+        "description": "השכונה התוססת והפחות מהוקצעת ליד פלאקה — שוק פשפשים, רוכלי רחוב, ובארים על גגות עם נוף לאקרופוליס.",
+        "tips": "מומלץ לשתייה בשקיעה על גג עם נוף. גישה נוחה למטרו.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/74/Monastiraki_Square_and_Acropolis_in_Athens_%2844149181684%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/a5/Flea_Market_at_Monastiraki.jpg"
+        ]
+      },
+      {
+        "id": "national-archaeological-museum",
+        "name": "המוזיאון הארכיאולוגי הלאומי",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 90,
+        "coords": [
+          37.9892,
+          23.7322
+        ],
+        "description": "האוסף הגדול בעולם של ממצאים מיוון העתיקה — מסכות זהב ממיקנה (תרבות יוונית מתקופת הברונזה שקדמה לאתונה הקלאסית באלף שנה), פסלי ברונזה ושיש, כלי חרס. אם דלפי והאקרופוליס עוררו סקרנות לגבי יוון העתיקה, כאן היא מקבלת מענה בקנה מידה עצום ומתויג היטב.",
+        "tips": "שעות קיץ 8:00–20:00 (שלישי 13:00–20:00).",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/63/National_Archaeological_Museum_of_Athens.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f0/0698_-_Archaeological_Museum%2C_Athens_-_Room_34_-_Photo_by_Giovanni_Dall%27Orto%2C_Nov_10_2009.jpg"
+        ]
+      },
+      {
+        "id": "kerameikos",
+        "name": "קראמיקוס — בית הקברות העתיק",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          37.9784,
+          23.7211
+        ],
+        "description": "בית הקברות הרשמי של אתונה העתיקה במשך למעלה מאלף שנה, עמוס הרבה פחות מהאקרופוליס או האגורה. מצבות מצוירות ומפוארות (חלק מהפסלים המשומרים ביותר מהתקופה), שרידי חומות ההגנה של העיר העתיקה, והשער שדרכו עברה \"תהלוכת הפנאתנאיה\" — מצעד דתי לכבוד אתנה, האלה שעל שמה נקראת העיר.",
+        "tips": "שעות קיץ 8:00–20:00. מוזיאון קטן באתר עם הפריטים המשובחים ביותר שנמצאו כאן.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/8f/Kerameikos_cemetery.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kerameikos_antiquities_panorama.jpg"
+        ]
+      },
+      {
+        "id": "varvakios-market",
+        "name": "שוק וארוואקיוס המרכזי",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          37.9803,
+          23.7276
+        ],
+        "description": "השוק המקורה המרכזי של אתונה מאז 1886 — אולם רועש וצבעוני של דוכני דגים, קצבים וירקות, מוקף מסעדות קטנות וחנויות תבלינים. לא \"אתר\" במובן הרגיל, אלא דרך אמיתית לראות חיי יומיום אתונאיים ולאכול טוב בזול.",
+        "tips": "סגור בדרך כלל בימי ראשון. עצירה נוחה בדרך בין מונאסטיראקי למוזיאון הארכיאולוגי.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e4/The_entrance_of_the_municipal_central_market_of_Athens.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/75/Central_Market_of_Athens.jpg"
+        ]
+      },
+      {
+        "id": "filopappou-hill",
+        "name": "גבעת פילופאפו",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          37.9683,
+          23.7161
+        ],
+        "description": "גבעה שקטה ומוצלת ממש מול האקרופוליס, קרויה על שם אנדרטה רומית בפסגתה. זו הנקודה הקלאסית שהמקומיים הולכים אליה כדי לצלם את האקרופוליס עצמו (במקום לצפות ממנו), במיוחד בשקיעה — אלטרנטיבה נעימה ופחות מאומצת לליקאביטוס.",
+        "tips": "כניסה חופשית, פארק ציבורי פתוח, אין שעות קבועות.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/ed/View_of_the_Acropolis_from_Philopappos_Hill.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/75/Philopappos_monument.jpg"
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Geros Tou Moria",
+        "note": "טברנה מסורתית ותיקה ומדורגת גבוה",
+        "area": "פלאקה"
+      },
+      {
+        "name": "Taverna Saita",
+        "note": "טברנה אותנטית ופחות תיירותית, מפורסמת בבקאליארוס עם סקורדליה",
+        "area": "פלאקה (רחוב קידאתינאון)"
+      },
+      {
+        "name": "Scholarchio",
+        "note": "מטבח יווני אותנטי, שקטה יחסית",
+        "area": "פלאקה"
+      },
+      {
+        "name": "Skoumbri",
+        "note": "טברנת דגים עם אווירה איורית",
+        "area": "קוקאקי"
+      }
+    ],
+    "wineries": [],
+    "lodgingAreas": [
+      {
+        "area": "קוקאקי",
+        "note": "שכונה שקטה ומגניבה, קרובה למוזיאון האקרופוליס ולכניסה לאתר, עדיפה על פלאקה (תיירותית ורועשת יותר) ומונאסטיראקי (חיה יותר אך פחות רומנטית)."
+      }
+    ],
+    "logisticsTips": [
+      "עדיף לאסוף את הרכב המושכר ממש לפני היציאה מאתונה צפונה, ולא ביום ההגעה — מרכז אתונה עמוס לנהיגה וחניה, וכדאי לחסוך את זה.",
+      "מהמרכז לשדה התעופה: כ-33-35 ק\"מ, כ-25-45 דקות נסיעה בהתאם לתנועה — לטיסה ב-00:05 כדאי לתת מרווח נדיב (כ-45 דק'+) כולל החזרת הרכב וצ'ק אין.",
+      "הכניסה לאגורה העתיקה מרחוב אדריאנו סגורה כרגע לשיפוץ — נכנסים דרך רחוב אפוסטולו פאבלו (השביל ההולכי-רגל בין תחנת המטרו תיסיו למדרון הדרומי של האקרופוליס)."
+    ]
+  },
+  {
+    "id": "delphi",
+    "name": "דלפי",
+    "region": "יוון המרכזית",
+    "coords": [
+      38.4822,
+      22.5011
+    ],
+    "summary": "האתר הארכיאולוגי החשוב ביותר ביוון העתיקה, על מדרונות הר פרנאסוס, עם נוף עוצר נשימה לעמק פלייסטוס.",
+    "suggestedStay": "חצי יום עד יום",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/6/68/Temple_of_Apollo_at_Delphi_Panoramic.jpg",
+    "attractions": [
+      {
+        "id": "delphi-site",
+        "name": "האתר הארכיאולוגי, מקדש אפולו והאצטדיון",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 150,
+        "coords": [
+          38.4822,
+          22.5011
+        ],
+        "description": "היוונים הקדומים האמינו שדלפי הוא ממש מרכז העולם. אפולו (אל הנבואה, המוזיקה והאור) נחשב כמי שדיבר כאן דרך כוהנת בשם \"הפיתיה\", שנתנה תשובות חידתיות לשאלות של מלכים ואנשים פשוטים במשך יותר מאלף שנה. עולים ב\"דרך הקדושה\" — שביל אבן שבו צעדו עולי רגל עתיקים — לצד שרידי \"בתי אוצר\" קטנים שבהם ערי-מדינה יווניות אחסנו מתנות לאל, עד ליסודות מקדש אפולו עצמו (שם ישבה הפיתיה), ומשם גבוה יותר לאמפיתיאטרון אבן משומר יפה, ולבסוף לאצטדיון בפסגת האתר ממש — אחד המשומרים ביותר מיוון העתיקה, ששימש את \"משחקי הפיתיה\", תחרות עתיקה שנייה בחשיבותה רק לאולימפיאדה.",
+        "tips": "שעות קיץ 8:00–20:00 (שעות ספטמבר מתקצרות מעט — בדקו שעות מדויקות סמוך לביקור). כרטיס €20 כולל גם את המוזיאון. שימו לב: האמפיתיאטרון נמצא בשיפוץ רב-שנתי מתמשך (עבודות תמיכה וייצוב) — עדיין פתוח לצפייה, ייתכנו פיגומים חלקיים.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/68/Temple_of_Apollo_at_Delphi_Panoramic.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/eb/Temple_of_Apollo_in_Delphi.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ancient_theatre_at_Delphi.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ancient_athletics_stadium_at_Delphi.JPG"
+        ]
+      },
+      {
+        "id": "delphi-museum",
+        "name": "המוזיאון הארכיאולוגי של דלפי",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 60,
+        "coords": [
+          38.4826,
+          22.5017
+        ],
+        "description": "כאן שמורים הפסלים והמתנות האמיתיים שנחפרו מהריסות האתר — כולל פסל הברונזה המפורסם \"הרכב של דלפי\" (475 לפנה״ס) וחלקים מהספינקס של נקסוס. לראות את זה אחרי (או לפני) הליכה באתר עצמו הופך ערימות אבן לתמונה היסטורית אמיתית.",
+        "tips": "פתוח רוב הימים 8:00–20:00, שלישי 10:00–17:00. לשלב מיד אחרי/לפני האתר עצמו.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/f/f5/Charioteer_of_Delphi%2C_475_BC%2C_AM_Delphi%2C_060088.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/66/Museuarqueologicodelfos.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/ee/Delphi_Museum_Delphic_Tripod_1.jpg"
+        ]
+      },
+      {
+        "id": "athena-pronaia",
+        "name": "מקדש אתנה פרונאיה (הטולוס) — מרמריה",
+        "type": "site",
+        "mustDo": false,
+        "closed": true,
+        "durationMinutes": 0,
+        "coords": [
+          38.4816,
+          22.5013
+        ],
+        "description": "🔒 סגור כרגע — לפני שהגיעו למקדש אפולו הראשי, עולי רגל עתיקים עצרו תחילה במקדש קטן יותר לאתנה (אלת החוכמה), כ-800 מ' במורד הכביש. המבנה המפורסם שבו, הטולוס, הוא מבנה עגול ומסתורי מ-380 לפנה\"ס בערך שהמטרה המקורית שלו עדיין שנויה במחלוקת בין היסטוריונים — ומהאתרים המצולמים ביותר ביוון.",
+        "tips": "⚠️ האתר (וגם הגימנסיון העתיק הסמוך) סגורים לחלוטין מאז מפולת סלעים באוקטובר 2024 שפצעה שני תיירים. נכון לפברואר 2026 עדיין אין תאריך פתיחה מחדש. אל תתכננו סביבו — לכל היותר אפשר להבחין במבנה העגול מרחוק מהכביש דלפי-אראחובה תוך כדי נסיעה, ללא ודאות. מומלץ לוודא סטטוס סמוך לנסיעה: אפוריה של עתיקות פוקידה, +30 22650 82313.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/a4/Delfos_templo_Delphi_Temple_Tholos_cazzul.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tholos_in_Delphi.jpg"
+        ]
+      },
+      {
+        "id": "castalian-spring",
+        "name": "מעיין קסטליה",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 20,
+        "coords": [
+          38.4854,
+          22.5057
+        ],
+        "description": "מעיין טבעי הנובע מגיא בהר פרנאסוס, בדרך שבין דלפי לאראחובה. במיתולוגיה זה היה המים שבהם עולי הרגל והפיתיה טיהרו את עצמם לפני הכניסה למקדש. אפשר להתקרב בשביל שלאורך הכביש ולראות את הגומחות המגולפות בסלע.",
+        "tips": "הקטע הצר ביותר ממש מתחת לצוק גדור מזה שנים כאמצעי זהירות כללי מפני נפילת סלעים (לא קשור לסגירת הטולוס) — עדיין אפשר להתקרב ולראות היטב מהשביל.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/f/f8/Castalian_Spring.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/ad/Kastalian_Spring.jpg"
+        ]
+      },
+      {
+        "id": "corycian-cave-hike",
+        "name": "מסלול למערת קוריקיון (הר פרנאסוס)",
+        "type": "hike",
+        "mustDo": false,
+        "durationMinutes": 150,
+        "coords": [
+          38.5389,
+          22.6222
+        ],
+        "hike": {
+          "km": 7,
+          "difficulty": "moderate",
+          "elevationGain": 870,
+          "start": "אזור סקי פטרולאקה (מעל אראחובה)",
+          "end": "מערת קוריקיון"
+        },
+        "description": "מערה אמיתית באבן גיר גבוה בהר פרנאסוס (ההר שמתנשא מעל דלפי), שנחשבה קדושה לפאן (אל טבע פרוע, חצי-עז) ולנימפות. ההליכה עצמה — כ-2-2.5 שעות הלוך-חזור מטרייל-הד גבוה יותר, לא מדלפי עצמה — היא חלק מהחוויה בדיוק כמו המערה: יער אורנים, אוויר הררי, ונוף חזרה לדלפי ולים.",
+        "tips": "מסלול העלייה המלא מדלפי עצמה ארוך מאוד (כ-18.5 ק\"מ הלוך-חזור) — מומלץ להתחיל מטרייל-הד גבוה יותר ליד אזור הסקי מעל אראחובה. מתאים כחצי-יום טרק נוסף לזוג עם עניין בהליכה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/10/Delphi_-_Korycian_Cave_walk_%2815504415818%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/64/Corycian_Cave_interior_Mount_Parnassus_Greece.jpg"
+        ]
+      },
+      {
+        "id": "ancient-gymnasium",
+        "name": "הגימנסיון העתיק",
+        "type": "site",
+        "mustDo": false,
+        "closed": true,
+        "durationMinutes": 0,
+        "coords": [
+          38.4816,
+          22.506
+        ],
+        "description": "🔒 סגור כרגע — \"גימנסיון\" יווני עתיק לא היה חדר כושר מודרני אלא מתחם אימון לגוף ולנפש, עם מסלולי ריצה וזירת היאבקות. זה שכן ממש בין הטולוס למעיין קסטליה.",
+        "tips": "סגור באותה מפולת סלעים מ-2024 שסגרה את הטולוס — נראה כרגע רק מהכביש ממעל, מרחוק.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/b/b3/The_Gymnasium_of_Delphi_on_October_4%2C_2020.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/98/Gymnasium_%28Delphi%29.jpg"
+        ]
+      },
+      {
+        "id": "arachova-village",
+        "name": "כפר אראחובה",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          38.4796,
+          22.5835
+        ],
+        "description": "עיירת הרים בנויה אבן, כ-10 ק\"מ (15 דק' נסיעה) מדלפי, בגובה כ-968 מ'. עיירת הסקי הכי מוכרת ביוון בחורף, אבל בספטמבר היא פשוט מקום יפהפה לשוטט ברחוב הראשי, לדפדף בחנויות טקסטיל צמר, גבינות ודבש, ולאכול בטברנה עם נוף. מדרגות אבן ליד כנסיית אגיוס גיאורגיוס מובילות לתצפית פנורמית מעל הכפר.",
+        "tips": "עצירה טובה בדרך בין דלפי למטאורה, או בערב אחרי האתר.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/ab/Arachova_panorama.jpg"
+        ]
+      },
+      {
+        "id": "chrisso-viewpoint",
+        "name": "תצפית מכפר כריסו",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          38.4681,
+          22.4676
+        ],
+        "description": "כפר זעיר כ-2 ק\"מ מדלפי, בנוי לתוך צלע ההר ומכונה מקומית \"המרפסת של דלפי\". משם רואים מטע זיתים עתיק ועצום היורד עד עיתאה ומפרץ קורינת'וס (הים שמעליו משקיפה דלפי).",
+        "tips": "עצירה קצרה בדרך, לא דורשת זמן מיוחד.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/c1/Hrisso01.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/5d/Hrisso02.jpg"
+        ]
+      },
+      {
+        "id": "delphi-village-walk",
+        "name": "שיטוט בכפר דלפי המודרני",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          38.4826,
+          22.4994
+        ],
+        "description": "הכפר המודרני שבו רוב המבקרים לנים בנוי במדרגות צרות במעלה ההר, מחוברות במדרגות בין הרחובות. הרבה טברנות ומרפסות מלונות תלויות ממש מעל הגיא, עם נוף פתוח לעמק פלייסטוס ולעיירות החוף עיתאה וגלאקסידי.",
+        "tips": "טיול ערב/שקיעה נחמד אחרי יום באתר, בלי צורך בכרטיס.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/9/93/View_of_Delphi.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e6/Delphi_Greece_View.jpg"
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Taverna Vakhos",
+        "note": "מטבח אזורי עכשווי, שמן זית ביתי ורשימת יינות מקומית טובה",
+        "area": "דלפי"
+      },
+      {
+        "name": "Epikouros",
+        "note": "מטבח יווני ביתי עם נוף לגיא דלפי, מוזיקה חיה בסופ״ש",
+        "area": "דלפי"
+      },
+      {
+        "name": "Taverna Dion",
+        "note": "טברנה מסורתית ואהובה על המקומיים",
+        "area": "דלפי"
+      }
+    ],
+    "wineries": [
+      {
+        "name": "Samartzis Estate",
+        "note": "יקב משפחתי במורדות הר הליקון (~45 ק\"מ מדלפי) — שווה רק אם יין הוא עדיפות, לא במרחק הליכה."
+      }
+    ],
+    "lodgingAreas": [
+      {
+        "area": "דלפי (העיירה)",
+        "note": "הכי קרוב לאתר, נוח לביקור מוקדם לפני האוטובוסים — אך חניה קשה (שני רחובות חד-סטריים בלבד)."
+      },
+      {
+        "area": "אראחובה",
+        "note": "כ-15 דק' נסיעה, כפר הרים מסוגנן עם טברנות וברוטיקים איכותיים יותר — עדיף לזוג עם רכב."
+      }
+    ],
+    "logisticsTips": [
+      "רכב כמעט הכרחי לשילוב דלפי-מטאורה ביום אחד.",
+      "בדרך למטאורה עוברים ליד תרמופילאי (אנדרטת ליאונידס בצד הכביש) — עצירה קצרה של כ-15 דק' שווה."
+    ]
+  },
+  {
+    "id": "meteora",
+    "name": "מטאורה",
+    "region": "תסליה",
+    "coords": [
+      39.7143,
+      21.6311
+    ],
+    "summary": "מנזרים דרמטיים המבוצעים על פסגות סלע ענקיות מעל קסטרקי וקלמבקה — אחד המראות המדהימים ביוון.",
+    "suggestedStay": "יום עד יום וחצי",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Meteora%27s_monastery_2.jpg",
+    "attractions": [
+      {
+        "id": "great-meteoron",
+        "name": "מנזר המטאורון הגדול",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.7239,
+          21.6244
+        ],
+        "description": "\"מטאורה\" פירושו \"מרחף באוויר\" — כינוי הולם למכלול עמודי סלע ענקיים (שנוצרו מדלתת נהר לפני כ-60 מיליון שנה ונשחקו לצורתם הנוכחית) המתנשאים עד 400 מ' מעל המישור. החל מהמאה ה-11 החלו נזירים אורתודוקסים לטפס על הצוקים ולבנות מנזרים בפסגתם — לא בשביל הנוף, אלא בשביל בידוד והגנה: מקום שאפשר להגיע אליו רק בסולמות חבל נשלפים אפשר לנזירים להתפלל ללא הפרעה ולשרוד פשיטות בתקופה אלימה. זהו הגדול, הוותיק והמלא ביותר מבין מנזרי מטאורה — כנסייה, מוזיאון, מטבח עתיק ואוסריום.",
+        "tips": "שעות קיץ 9:30-15:00, סגור בימי שלישי. כניסה €5 במזומן בלבד (עודכן מ-€3). קוד לבוש צנוע: לנשים חצאית עד הברך (זמינה בהשאלה בכניסה), לגברים מכנסיים ארוכים. הגיעו לפתיחה כדי להקדים את קבוצות התיירים.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/0/08/Megalo_Meteoro_panorama.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/65/20140414_meteora021.JPG"
+        ]
+      },
+      {
+        "id": "varlaam",
+        "name": "מנזר ורלאם",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 60,
+        "coords": [
+          39.7215,
+          21.6294
+        ],
+        "description": "שני בגודלו מבין המנזרים (נוסד 1517), עם גשר גישה דרמטי וכנסיית קטהוליקון מצוירת יפהפייה — פחות עמוס מהמטאורון הגדול.",
+        "tips": "שעות 9:00-16:00, סגור בימי שישי. כניסה €5.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/86/%CE%9C%CE%BF%CE%BD%CE%AE_%CE%92%CE%B1%CF%81%CE%BB%CE%B1%CE%AC%CE%BC_%CE%9C%CE%B5%CF%84%CE%B5%CF%8E%CF%81%CF%89%CE%BD_%CE%B1%CF%80%CF%8C_%CE%BA%CE%AC%CF%84%CF%89.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/ec/20140414_meteora164.JPG"
+        ]
+      },
+      {
+        "id": "rousanou",
+        "name": "מנזר רוסאנו",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 40,
+        "coords": [
+          39.7185,
+          21.628
+        ],
+        "description": "המנזר המצולם ביותר — בנוי על צריח סלע צר, נגיש דרך גשר קצר. כיום מתגוררות בו נזירות (מנזר לנשים).",
+        "tips": "שעות 9:00-16:30 (א' עד 16:00), סגור בימי רביעי. כניסה €5. קומפקטי — ביקור מהיר יחסית.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/6d/Meteora_-_Rousanou_Monastery_1.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/9b/20140414_meteora146.JPG"
+        ]
+      },
+      {
+        "id": "agia-triada",
+        "name": "מנזר אגיה טריאדה (השילוש הקדוש)",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          39.7132,
+          21.6314
+        ],
+        "description": "מנזר מרוחק יותר עם גישת מדרגות ארוכה (140 מדרגות חצובות בסלע — התלול מבין המנזרים הפתוחים) — הופיע בסרט ג'יימס בונד \"מבט אחד לא מספיק\".",
+        "tips": "שעות 10:00-16:00, סגור בימי חמישי, גם בקיץ וגם בחורף. כניסה €5.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/87/Agia_Triada_-_Meteora.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/67/Holy_Trinity_Monastery_on_a_rock_cliff_at_Meteora%2C_Greece%2C_2009.jpg"
+        ]
+      },
+      {
+        "id": "agios-stefanos",
+        "name": "מנזר אגיוס סטפאנוס",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 40,
+        "coords": [
+          39.7157,
+          21.6353
+        ],
+        "description": "הגישה הכי קלה מכל המנזרים — גשר בלבד, ללא מדרגות, נוף מרהיב, נזירות מתגוררות בו.",
+        "tips": "שעות 9:00-13:30 ו-15:30-17:30 (סגור באמצע היום!), סגור בימי שני. כניסה €5.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/5/5d/Moni_Agiou_Stephanou_BW_2017-10-07_10-59-13.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/19/Agios_Stefanos_-_Meteora.jpg"
+        ]
+      },
+      {
+        "id": "ypapanti-hermitage",
+        "name": "מנזר יפאפנטי הנחבא (מסלול הליכה)",
+        "type": "hike",
+        "mustDo": false,
+        "durationMinutes": 90,
+        "coords": [
+          39.7335,
+          21.6309
+        ],
+        "hike": {
+          "km": 3,
+          "difficulty": "easy",
+          "elevationGain": 100,
+          "start": "קסטרקי",
+          "end": "יפאפנטי (הלוך-חזור)"
+        },
+        "description": "בניגוד לששת המנזרים הגדולים שיושבים על ראשי הסלעים, זהו מנזר-נזיר מהמאה ה-14 שחצוב ממש לתוך דופן הצוק, כמו מערה. הוקם ב-1367 על ידי שני נזירים שרצו התבודדות מוחלטת מהעולם. כיום נטוש (אין נזירים תושבים) ונפתח לציבור בעיקר בחגו (2 בפברואר) — אבל השביל עצמו והתצפית הם המטרה: הליכה שקטה ביער, עם הקפלה המצוירת מהמאה ה-14 נראית מבחוץ.",
+        "tips": "שביל מסומן קצר וקל מקסטרקי — חוויה שקטה יותר מהמנזרים העמוסים.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Monast%C3%A8re_Ypapantis_M%C3%A9t%C3%A9ores.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/3/36/Ypapantis_Monastery_door.jpg"
+        ]
+      },
+      {
+        "id": "holy-spirit-rock",
+        "name": "סלע רוח הקודש (אגיו פנבמה)",
+        "type": "hike",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          39.7189,
+          21.6247
+        ],
+        "hike": {
+          "km": 2,
+          "difficulty": "easy",
+          "elevationGain": 80,
+          "start": "כיכר קסטרקי",
+          "end": "סלע רוח הקודש (הלוך-חזור)"
+        },
+        "description": "האתר הדתי העתיק ביותר במכלול מטאורה כולו — מהמאה ה-10, קודם בכמה מאות שנים לששת המנזרים המפורסמים. קפלה זעירה בראש סלע של 300 מ', מגיעים דרך שביל חצוב. הליכה קצרה וקלה מהכיכר המרכזית בקסטרקי, עם נוף מתגמל ובלי עומס תיירים.",
+        "tips": "כשעה הלוך-חזור — אופציה הכי קלה וקצרה מבין השבילים הנוספים.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/32/J26_556_Einsiedelei_in_der_Agion-Pnewma-Wand.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/df/J26_570_Felsenkirche_%C3%81gion_Pn%C3%A9wma.jpg"
+        ]
+      },
+      {
+        "id": "natural-history-museum",
+        "name": "מוזיאון ההיסטוריה הטבעית ומוזיאון הפטריות",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          39.706,
+          21.628
+        ],
+        "description": "מוזיאון קטן בקלמבקה עם שני אוספים קבועים — כ-350 מיני יונקים וציפורים ממולאים, וכ-250 מיני פטריות (רלוונטי כי יערות האלון באזור הם שטח איסוף פטריות אמיתי). אופציה טובה ליום חם או גשום.",
+        "tips": "שעות: ימי חול 9:00–17:00, סופ\"ש 10:00–18:00.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/ac/1454.Kalabaka.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/51/20190416-Kalabaka.jpg"
+        ]
+      },
+      {
+        "id": "monk-paths-hike",
+        "name": "שבילי הנזירים העתיקים",
+        "type": "hike",
+        "mustDo": true,
+        "durationMinutes": 240,
+        "coords": [
+          39.7264,
+          21.6156
+        ],
+        "hike": {
+          "km": 8,
+          "difficulty": "moderate",
+          "elevationGain": 300,
+          "start": "קסטרקי",
+          "end": "מעגל בין המנזרים הצפוניים"
+        },
+        "description": "רשת שבילי אבן מהמאות ה-11 עד ה-16 (מעל 40 ק\"מ בסך הכול) שקדמו לכביש המודרני ומחברים בין קסטרקי למנזרים. דרך יפה ושקטה יותר לחוות את הנוף מאשר נהיגה בלבד, ומתאימה לרמת הכושר של הליכה קלה-בינונית.",
+        "tips": "גרסה מלאה יותר יכולה להגיע ל-16 ק\"מ — לזוג עם עניין בהליכה קלה-בינונית מומלצת הגרסה של כ-7-9 ק\"מ.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/88/Meteora_stairs_to_monastary.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/a3/Stairway_to_great_Meteora_monastery_-_panoramio.jpg"
+        ]
+      },
+      {
+        "id": "sunset-viewpoint",
+        "name": "נקודת תצפית פסארופטרה (שקיעה)",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 45,
+        "coords": [
+          39.7186,
+          21.6281
+        ],
+        "description": "נקודת התצפית הקלאסית לשקיעה מעל קסטרקי, ליד חניון מנזר רוסאנו, עם נוף לכל מכלול הסלעים ולרוסאנו בקדמת התמונה. יש גם כמה נקודות נוספות פחות מוכרות לאורך כביש הלולאה בין המנזרים.",
+        "tips": "המקום קטן ומתמלא — הגיעו 30-45 דק' לפני השקיעה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/4/42/Meteora_Sunset.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/97/Sunset_at_Meteora.jpg"
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Taverna Gardenia",
+        "note": "משפחתית מ-1998, מטבח יווני ביתי ויין מקומי",
+        "area": "קסטרקי"
+      },
+      {
+        "name": "Taverna Xarama",
+        "note": "משפחתית מ-1982, טלה על האש וסובלאקי עם נוף לסלעים",
+        "area": "קסטרקי"
+      },
+      {
+        "name": "Meteora Restaurant",
+        "note": "משפחתית מ-1925, מוסקה ונקניק ביתי",
+        "area": "קלמבקה"
+      }
+    ],
+    "wineries": [],
+    "lodgingAreas": [
+      {
+        "area": "קסטרקי",
+        "note": "כפר אבן למרגלות הסלעים ממש, קרוב לשבילי ההליכה ולנקודת השקיעה, אווירה שקטה יותר."
+      },
+      {
+        "area": "קלמבקה",
+        "note": "עיר גדולה יותר עם יותר מסעדות וחניה נוחה, 5 דק' נסיעה / 15 דק' הליכה מקסטרקי."
+      }
+    ],
+    "logisticsTips": [
+      "כניסה לכל מנזר במזומן בלבד — הביאו עודף.",
+      "לכל מנזר חניון קטן משלו למרגלות המדרגות — אין חניון מרכזי אחד, מתכננים נסיעה בין מנזר למנזר.",
+      "הגיעו מוקדם (9:30-10:00) כדי להקדים את קבוצות התיירים, במיוחד במטאורון הגדול.",
+      "שימו לב: לכל מנזר יום סגירה שונה במכוון (כדי לפזר עומס) — כל שישה המנזרים פתוחים יחד רק בסופי שבוע. אם מגיעים באמצע השבוע, תכננו מראש איזה מנזרים באמת פתוחים באותו יום.",
+      "מטאורה היא גם אתר טיפוס סלעים מוכר מאז 1976 — מדריכים מוסמכים מקומיים מציעים חוגי טעימה למתחילים (חצי יום, ציוד מלא, בלי ניסיון קודם) על הסלע האופייני והמיוחד כאן. אסור לטפס על סלעים שבהם יש מנזר פעיל."
+    ]
+  },
+  {
+    "id": "olympus",
+    "name": "אולימפוס (ליטוכורו)",
+    "region": "פייריה (מקדוניה)",
+    "coords": [
+      40.1004,
+      22.5006
+    ],
+    "summary": "\"עיר האלים\" למרגלות ההר הגבוה ביותר ביוון — בסיס הליכה אל קניון דרמטי, אתר עתיק מרשים ומפגש נדיר בין ים להרים.",
+    "suggestedStay": "יום עד יום וחצי",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Olympus_Greece.jpg",
+    "attractions": [
+      {
+        "id": "enipeas-gorge-hike",
+        "name": "מסלול קניון אניפאס (ליטוכורו → פריוניה)",
+        "type": "hike",
+        "mustDo": true,
+        "durationMinutes": 300,
+        "coords": [
+          40.093,
+          22.44
+        ],
+        "hike": {
+          "km": 13,
+          "difficulty": "hard",
+          "elevationGain": 800,
+          "start": "ליטוכורו (300 מ')",
+          "end": "פריוניה (1,100 מ')"
+        },
+        "description": "לפי המיתולוגיה היוונית, אולימפוס היה ביתם של שנים-עשר האלים העיקריים — זאוס בראשם — ומקום מושבם נחשב מוסתר בעננים שמכסים את הפסגות כמעט תמיד. המסלול עוקב אחר נהר אניפאס במעלה קניון צר וירוק, חוצה שמונה גשרי עץ, עובר ליד מפלים ובריכות טבעיות, ומגיע לשרידי המנזר העתיק של אגיוס דיוניסיוס — מרכז דתי מהמאה ה-16 שהופצץ ונהרס בידי הגרמנים ב-1943 — ולמערה הקטנה שלידו שבה נבנה קפלון בתוך הסלע.",
+        "tips": "המסלול המלא (כ-13 ק\"מ, 5-7 שעות, טיפוס של כ-800 מ') דורש נעליים טובות — חלק מהגשרים פגומים ויש מעברי מים. למי שלא רוצה את המסלול המלא: הליכה קלה של כ-2 שעות הלוך-חזור מליטוכורו עד המנזר העתיק נותנת את עיקר החוויה. מזג האוויר בהר משתנה במהירות גם בקיץ — קחו שכבה נוספת.",
+        "images": [
+          "https://commons.wikimedia.org/wiki/Special:FilePath/At_Enipeas_gorge_(2).jpg",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Olympmassiv-enipeas-river-tal.JPG"
+        ]
+      },
+      {
+        "id": "olympus-summit-trek",
+        "name": "טרק פסגה למיטיקאס — למטיילים מנוסים בלבד",
+        "type": "hike",
+        "mustDo": false,
+        "durationMinutes": 360,
+        "coords": [
+          40.0847,
+          22.3719
+        ],
+        "hike": {
+          "km": 9,
+          "difficulty": "hard",
+          "elevationGain": 1000,
+          "start": "פריוניה (1,100 מ')",
+          "end": "מפסגת מיטיקאס (2,918 מ')"
+        },
+        "description": "מיטיקאס, הפסגה הגבוהה באולימפוס ובכל יוון (2,918 מ'), היא לפי המיתוס מקום מושבו הישיר של זאוס. הטיפוס מפריוניה מתחיל ביער ומטפס לרכס אבן חשוף מעל קו העצים, עם לינה הכרחית בליל הביניים ב\"מקלט A\" (2,100 מ'). היום השני כולל מקטע טיפוס-סלע חשוף וחשוף לגובה (\"קאקי סקאלה\") שדורש ניסיון הליכה הררית וראש טוב לגבהים — לא מסלול למתחילים.",
+        "tips": "המקלט (mountolympus.gr) פעיל אמצע מאי–אמצע אוקטובר, מתמלא מהר ביולי-אוגוסט — הזמינו מראש. מיטה כ-€15-20, ארוחת ערב כ-€12-15. למי שלא בטוח לגבי המקטע הטכני מומלץ מדריך הררי מקומי. גם בלי לעלות לפסגה — ההליכה עד המקלט ובחזרה כבר חוויה משמעותית בפני עצמה.",
+        "images": [
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Mytikas_peak_02.jpg",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Olympus_National_Park_30.jpg"
+        ]
+      },
+      {
+        "id": "dion-archaeological-site",
+        "name": "האתר הארכיאולוגי של דיון",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 120,
+        "coords": [
+          40.1778,
+          22.4794
+        ],
+        "description": "דיון (על שם זאוס) הייתה עיר הפולחן הקדושה ביותר של הממלכה המוקדונית, ממש למרגלות אולימפוס — כאן הקריב אלכסנדר הגדול לזאוס לפני שיצא למסע הכיבוש לאסיה, וכאן חגג פיליפוס השני את כיבושיו. האתר הענק (150 הקטר) כולל רחובות עירוניים שלמים, בית מרחץ רומי מפואר, תיאטרון הלניסטי, ומקדש לאיזיס המצרית — פולחן זר ויוצא דופן שהתקבל כאן במלואו, עם בריכות ופסלים ששרדו יוצאים מן הכלל בזכות בוץ שהגן עליהם לאורך אלפי שנים.",
+        "tips": "שעות קיץ (16.4–31.10) 8:00–20:00; חורף 8:30–15:30, סגור בימי שלישי. כרטיס €8 (מוזל/חוץ-עונה €4) כולל גם את המוזיאון בכפר דיון הסמוך. אזור מקדש איזיס עדיין רווי מעיינות — נעליים שאפשר להרטיב לא יזיקו.",
+        "images": [
+          "https://commons.wikimedia.org/wiki/Special:FilePath/The_Sancturay_of_Demeter,_Ancient_Dion_(7099049843).jpg",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/MosaicEpiphany-of-Dionysus.jpg"
+        ]
+      },
+      {
+        "id": "platamonas-castle",
+        "name": "מצודת פלטמונס",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          40.0102,
+          22.5993
+        ],
+        "description": "מצודה שנבנתה 1204–1222 בידי הצלבנים על יסודות ביזנטיים, על גבעה ששלטה במשך מאות שנים על נקודת המעבר היחידה בין תסליה למקדוניה לאורך החוף (מעבר טמפי). מהחומות רואים בו-זמנית את קו החוף כולו ואת פסגת האולימפוס מעליו — שילוב נדיר של ים והר בתמונה אחת.",
+        "tips": "שעות 2.5–31.10: 8:00–20:00; 1.11–30.4: 8:30–15:00, כניסה אחרונה 20 דק' לפני סגירה. כרטיס €10 (מוזל €5). בקיץ מתקיימים לעיתים קונצרטים בערב בתוך המצודה.",
+        "images": [
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Platamonas_castle_15.jpg",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Platamon_Castle_(23896880929).jpg"
+        ]
+      },
+      {
+        "id": "litochoro-old-town",
+        "name": "שיטוט בליטוכורו",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          40.1004,
+          22.5006
+        ],
+        "description": "העיירה שמכנה את עצמה \"עיר האלים\", בנויה במדרגות על הגבעות בפתח קניון אניפאס. מאז שהצוות השוויצרי הראשון (עם המטפס המקומי כריסטוס קקלוס) כבש את פסגת מיטיקאס ב-1913, ליטוכורו התפתחה למרכז ההרים הפעיל ביותר ביוון — חנויות ציוד טיפוס, משרדי מדריכים, וכיכרות עם דולבים ענקיים ותושבים ותיירים מטיילים בשלל שפות.",
+        "tips": "בסיס נוח עם המבחר הכי גדול של טברנות ובתי הארחה באזור — כדאי ללון כאן אם מתכננים גם את קניון אניפאס וגם את דיון/פלטמונס.",
+        "images": [
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Litochoro.jpg",
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Olympus_Litochoro.JPG"
+        ]
+      },
+      {
+        "id": "plaka-litochorou-beach",
+        "name": "חוף פלאקה ליטוכורו",
+        "type": "beach",
+        "mustDo": false,
+        "durationMinutes": 150,
+        "coords": [
+          40.079,
+          22.535
+        ],
+        "beachCharacter": "חוף חלוקים ארוך עם טיילת, מים צלולים, נוף ישיר לפסגות האולימפוס מעל קו החוף",
+        "access": "נגיש ברכב, חניה לאורך הטיילת, כ-8 ק\"מ מליטוכורו",
+        "description": "ההרחבה החופית של ליטוכורו, ונקודת המפגש הכי נוחה בין הר לים בכל האזור — אפשר לגמור מסלול הליכה בבוקר ולשחות אחר הצהריים עם ההר כולו נראה מאחור. טיילת עם טברנות דגים ובתי קפה.",
+        "tips": "טוב לשקיעה. פחות עמוס מריביירת האולימפוס הרשמית מדרום (פלטמונס, פאנטלימונס).",
+        "images": [
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Plaka-Litochoro.JPG"
+        ]
+      },
+      {
+        "id": "old-panteleimonas-village",
+        "name": "כפר פאנטלימונס הישן",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          40.052,
+          22.545
+        ],
+        "description": "כפר אבן שננטש כמעט לגמרי באמצע המאה ה-20 (תושביו עברו לכפר החוף הסמוך) ושוחזר בעשורים האחרונים לכפר בוטיק עם סמטאות אבן, כיכר דולבים, ובתי אבן שהפכו לבתי מלאכה קטנים ובתי קפה. נוף פתוח מהמדרון אל המפרץ התרמאי ואל האולימפוס.",
+        "tips": "עמוס בסופי שבוע — חניה מוגבלת. אפשר לשלב עם ירידה לכפר החוף פאנטלימונס החדש למטה.",
+        "images": [
+          "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Panteleimonas,_Greece.jpg"
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Gastrodromio en Olympo",
+        "note": "מטבח יווני מודרני שמפרש מחדש מתכונים מקומיים, מהמסעדות המדוברות באזור",
+        "area": "ליטוכורו"
+      },
+      {
+        "name": "טברנה בכיכר המרכזית",
+        "note": "מטבח הררי מסורתי — בשרים איטיים ופסטות תוצרת בית",
+        "area": "ליטוכורו"
+      },
+      {
+        "name": "טברנת דגים על הטיילת",
+        "note": "דגים טריים מול הים, נוף לאולימפוס",
+        "area": "פלאקה ליטוכורו"
+      }
+    ],
+    "wineries": [
+      {
+        "name": "Tsantali — יקב רפסאני",
+        "note": "אזור היין המוגן רפסאני, על המדרון הדרום-מזרחי של אולימפוס — מיזוג ענבים מקומי ייחודי (כסינומברו, קראסאטו, סתאברוטו). ביקורים בתיאום מראש."
+      }
+    ],
+    "lodgingAreas": [
+      {
+        "area": "ליטוכורו",
+        "note": "בסיס ההליכה המרכזי — הכי קרוב לכניסת קניון אניפאס, המבחר הרחב ביותר של טברנות ולינה."
+      },
+      {
+        "area": "פלאקה ליטוכורו (החוף)",
+        "note": "כ-10 דק' נסיעה מהעיירה, עדיף למי שרוצה גם ים בטווח הליכה."
+      }
+    ],
+    "logisticsTips": [
+      "הדרך העולה מליטוכורו לפריוניה (כ-18 ק\"מ) צרה ומתפתלת — סוגרים אותה בתנאי מזג אוויר קשים.",
+      "דיון ומצודת פלטמונס דורשים כרטיסים נפרדים ושעות ביקור שונות — כדאי לשלב אותם באותו יום כעצירות בדרך פנימה/החוצה מהאזור, לא כעצירה אחת.",
+      "אולימפוס יושב כמעט בול בדרך בין מטאורה לוולוס/פליו — נקודת עצירה טבעית באמצע נסיעה, גם ליום שלם וגם רק לדיון+פלטמונס בדרך."
+    ]
+  },
+  {
+    "id": "ioannina",
+    "name": "יואנינה",
+    "region": "אפירוס",
+    "coords": [
+      39.6636,
+      20.8522
+    ],
+    "summary": "עיר השער לזגוריה, בנויה סביב אגם פמבוטיס ומצודה עות'מאנית-ביזנטית, עם אי מיושב בלב האגם.",
+    "suggestedStay": "יום אחד",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ioannina_Montage_L.png",
+    "attractions": [
+      {
+        "id": "its-kale-castle",
+        "name": "מצודת איטס קאלה",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.6717,
+          20.8606
+        ],
+        "description": "אפירוס (האזור שיואנינה היא בירתו) הוא פינה הררית ומרוחקת בצפון-מערב יוון, על גבול אלבניה. הדמות שמעצבת את כל ההיסטוריה של יואנינה היא עלי פאשה — מנהיג עות'מאני ממוצא אלבני ששלט כאן כמעט באופן עצמאי במשך כ-35 שנה (עד 1822), ידוע גם באכזריותו וגם בכך שהפך את יואנינה למרכז אזורי מתוחכם שהרשים מבקרים אירופאים (לורד ביירון ביקר וכתב עליו). כמעט כל מה שהיסטורי ביואנינה קשור אליו. הציטדלה הפנימית שבה בנה ארמונו (1788) כוללת את המוזיאון הביזנטי ואת מסגד פתחיה (קבורת עלי פאשה) ואת מוזיאון הצורפות (יואנינה הייתה מרכז צורפות כסף במשך מאות שנים).",
+        "tips": "שטח המצודה עצמו: כניסה חופשית, פתוח תמיד. מוזיאון הצורפות: €4, פתוח 1.3–15.10: 10:00-18:00, 16.10–28.2: 10:00-17:00, סגור בימי שלישי. המוזיאון הביזנטי: €3, שעות משתנות עונתית — מומלץ לוודא ביום.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/9/96/Ioannina%2C_Its_Kale_%28inner_acropole%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/39/Kastro_Ioannina_ItsKale.jpg"
+        ]
+      },
+      {
+        "id": "aslan-pasha-mosque",
+        "name": "מסגד אסלאן פאשה",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          39.6706,
+          20.8631
+        ],
+        "description": "מסגד מ-1618 (שהוקם בפקודת אסלאן פאשה לאחר דיכוי מרד אנטי-עות'מאני ב-1611) בתוך חומות הקסטרו, כיום מוזיאון אתנוגרפי עם תערוכות עות'מאניות, יהודיות ומקומיות ונוף מעולה מגג המצודה.",
+        "tips": "⚠️ המבנה נפגע בסופה ב-2018 ונמצא בשיפוץ ממושך שטרם הושלם נכון ל-2026 — לא ברור אם המוזיאון פתוח באופן מלא כרגע. מומלץ לוודא סטטוס סמוך לנסיעה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/8b/20140415_ioannina318.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Aslan_Pasha_Ottoman_mosque_in_Ioannina%2C_Greece.jpg"
+        ]
+      },
+      {
+        "id": "old-synagogue",
+        "name": "בית הכנסת העתיק (קהל קדוש ישן)",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          39.6666,
+          20.8548
+        ],
+        "description": "בית הכנסת הרומניוטי הפעיל האחרון באירופה (הרומניוטים הם קהילה יהודית דוברת-יוונית עתיקה יותר מהקהילות הספרדיות ביתר יוון, נוכחת כאן מאז העת העתיקה) — מבנה נוכחי מ-1829 על יסודות ביזנטיים, עם מבנה ישיבה ייחודי. שרד את מלחה\"ע ה-2 הודות לתושבים מקומיים שהסוו אותו כספרייה. רוב יהודי יואנינה (כ-1,900 איש) גורשו ונרצחו ב-1944 — בית הכנסת הוא אחד השרידים הפיזיים הבודדים לקהילה הזו.",
+        "tips": "כניסה רק בליווי מדריך מהקהילה היהודית המקומית — יש לתאם מראש בטלפון +30 2651 025195, לא ביקור ספונטני.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/37/Ioannina_Synagogue_1.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c6/Ioannina_Synagogue_3.JPG"
+        ]
+      },
+      {
+        "id": "kastro-stroll",
+        "name": "שיטוט בקסטרו (העיר העתיקה)",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.67,
+          20.858
+        ],
+        "description": "סמטאות מרוצפות ובתים מתקופה עות'מאנית בתוך שתי חגורות הביצור.",
+        "tips": "הכי יפה בשעות אחר הצהריים המאוחרות.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/68/07Joannina_Kastro03.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/0/0e/Castroioannina.jpg"
+        ]
+      },
+      {
+        "id": "lakefront-molos",
+        "name": "טיילת האגם (מולוס)",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 40,
+        "coords": [
+          39.666,
+          20.856
+        ],
+        "description": "טיילת נעימה עם בתי קפה ונוף שקיעה מעל האגם וההרים.",
+        "tips": "",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/10/IoanninaPromenade.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/57/Ioannina_seen_from_the_Lake.jpg"
+        ]
+      },
+      {
+        "id": "nisi-island",
+        "name": "האי שבאגם (Nisi)",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 180,
+        "coords": [
+          39.665,
+          20.87
+        ],
+        "description": "קהילה מנזרית שלישית בגודלה ביוון (אחרי הר אתוס ומטאורה) — שבעה מנזרים ביזנטיים, הוותיק שבהם (פילנתרופינון) מ-1291-92. וכפר דייגים קטן. במנזר אגיוס פנטלימון נלכד ונהרג עלי פאשה ב-1822 — יש שם מוזיאון קטן על כך.",
+        "tips": "מעבורות קטנות (Nisaki Lines) כל כ-30 דק', כ-€3-5 הלוך-חזור, 6-10 דק' הפלגה. נסו מאכלי אגם מקומיים (צלופח, צפרדע, קרפיון) באחת הטברנות באי. ודאו את שעת המעבורת האחרונה מראש.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/f/fd/Nisi_Ioannina_5990.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/86/Ioannina_Island%2C_Greece.jpg"
+        ]
+      },
+      {
+        "id": "dodoni",
+        "name": "דודונה — התיאטרון והאורקל העתיקים",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 150,
+        "coords": [
+          39.5464,
+          20.7878
+        ],
+        "description": "כ-22 ק\"מ (30-40 דק' נסיעה) מיואנינה — עצירה של חצי יום שווה, לא תוספת שולית. דודונה היה האורקל הכי עתיק ביוון — מקום שבו, לפי אמונת הקדמונים, האל זאוס (מלך האלים) דיבר דרך רשרוש עלים באלון קדוש, וכוהנים/כוהנות פירשו את הצליל למבקרים שחיפשו הכוונה בכל תחום, מפוליטיקה ועד חיים אישיים. הוא קדם לאורקל המפורסם יותר של דלפי ונחשב שני בחשיבותו רק לו. האתר פעל למעלה מאלף שנה עד שנסגר ב-391-392 לספירה. מה ששרד היום נשלט על ידי התיאטרון העתיק — מהגדולים ביוון (קיבולת 15,000-17,000 מקומות) — ומרשים בקנה מידה אמיתי.",
+        "tips": "שעות (1.4–31.8): 8:30–20:00, מתקצר בהדרגה לקראת החורף (8:30–15:30). כרטיס מלא €15, מוזל €8.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/9/93/Dodona%2C_Amphitheater_2015.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/6/6b/Dodona_1990_-_theater_from_S.jpg"
+        ]
+      },
+      {
+        "id": "perama-cave",
+        "name": "מערת פראמה",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 90,
+        "coords": [
+          39.6949,
+          20.8462
+        ],
+        "description": "מערת אבן גיר של ממש, כ-5 ק\"מ מצפון ליואנינה ליד כפר פראמה — לא אטרקציה שולית. אורך 1,500 מ', התגלתה במקרה ב-1940 כשתושבים הסתתרו שם מהפצצות במהלך מלחמת העולם השנייה, עם כ-19 סוגי תצורות סטלגמיטים/סטלגטיטים ושרידי מאובנים של דובי מערות בני כ-200,000 שנה. פעילות מרשימה, קלה, ולא תלוית מזג אוויר.",
+        "tips": "שעות כ-9:00-17:00 (בעונה עד 20:00 — מומלץ לוודא). כרטיס כ-€6-7 מבוגר.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/b/b7/Perama_Cave_1.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/45/Perama_Cave_3.jpg"
+        ]
+      },
+      {
+        "id": "ioannina-archaeological-museum",
+        "name": "המוזיאון הארכיאולוגי של יואנינה",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          39.6633,
+          20.8542
+        ],
+        "description": "מוזיאון מדינה בפארק ליתריצה במרכז העיר, עם ממצאים מדודונה ומאזור אפירוס הרחב — כולל פסלוני ברונזה ולוחות עופרת שעליהם חרוטות שאלות אמיתיות ששאלו מבקרי האורקל בעת העתיקה. מוסיף הקשר נחמד אם מבקרים גם בדודונה.",
+        "tips": "שעות קיץ 8:00-20:00, חורף 8:30-15:30, סגור בימי שלישי. כרטיס €10 מלא / €5 מוזל.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/b/b8/Archaeological_Museum_of_Ioannina.jpg"
+        ]
+      },
+      {
+        "id": "litharitsia-park",
+        "name": "פארק ליתריצה — תצפית מעל האגם",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 40,
+        "coords": [
+          39.6635,
+          20.8542
+        ],
+        "description": "פארק ציבורי חופשי במרכז העיר, בנוי על גבעה שביצר עלי פאשה סביב 1800. כיום שטח ירוק עם פסלי דמויות היסטוריות מקומיות, ולפי כמה מקורות עדכניים — הנוף הפנורמי הכי מזוהה של יואנינה והאגם מתוך העיר עצמה, בלי צורך בטיפוס.",
+        "tips": "כניסה חופשית, אין שעות קבועות.",
+        "images": []
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Thamon",
+        "note": "יווני-ים תיכוני מודרני, מרכיבים עונתיים מקומיים",
+        "area": "העיר העתיקה"
+      },
+      {
+        "name": "Presveia",
+        "note": "בניין מסורתי ליד המצודה, תפריט מזה רחב",
+        "area": "ליד הקסטרו"
+      },
+      {
+        "name": "Fysa Roufa",
+        "note": "טברנה עירונית, ירקות ממולאים וטלה צלוי",
+        "area": "מרכז העיר"
+      },
+      {
+        "name": "Stoa Louli",
+        "note": "פונדק היסטורי מ-1875 — צ׳יפורו ומזה עם מוזיקה מסורתית חיה בסופ״ש",
+        "area": "מרכז העיר"
+      }
+    ],
+    "wineries": [],
+    "lodgingAreas": [
+      {
+        "area": "בתוך/סמוך לקסטרו",
+        "note": "הליכה לכל האתרים, בתי הארחה בוטיקיים בבניינים משוחזרים."
+      }
+    ],
+    "logisticsTips": [
+      "החנו במגרשי החניה העירוניים (ליד מגדל השעון או הכיכר המרכזית) ולא בתוך הקסטרו — הסמטאות שם צרות מדי.",
+      "תדלקו כאן לפני הכניסה לזגוריה — תחנות דלק נדירות שם."
+    ]
+  },
+  {
+    "id": "zagoria",
+    "name": "זגוריה",
+    "region": "אפירוס",
+    "coords": [
+      39.9333,
+      20.7667
+    ],
+    "summary": "אזור 46 כפרי האבן ההיסטוריים באתר מורשת עולמית של אונסק״ו, מוקף הרי פינדוס וקניון ויקוס האדיר — לב הטרקינג והנופים של הטיול.",
+    "suggestedStay": "2–3 לילות",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Vikos_Gorge_18.JPG",
+    "attractions": [
+      {
+        "id": "vikos-gorge-full",
+        "name": "חציית קניון ויקוס (מונודנדרי → פאפיגו)",
+        "type": "hike",
+        "mustDo": true,
+        "durationMinutes": 420,
+        "coords": [
+          39.9614,
+          20.755
+        ],
+        "hike": {
+          "km": 20,
+          "difficulty": "hard",
+          "elevationGain": 700,
+          "start": "מונודנדרי",
+          "end": "פאפיגו"
+        },
+        "description": "זגוריה (\"זגורוצ'וריה\") הם 46 כפרי אבן פזורים בהרי פינדוס באפירוס, שבספטמבר 2023 הוכרזו כאתר מורשת עולמי של אונסק\"ו — הראשון ביוון שזכה בתואר בזכות משהו שאינו שרידים עתיקים/ביזנטיים, אלא \"נוף תרבותי\" שלם. כשהעות'מאנים כבשו את האזור ב-1430, ההרים היו קשים כל כך לשליטה עד שהסולטאן העדיף להעניק לכפרים מעמד אוטונומי מיוחד (שלטון עצמי ופטור ממס) בתמורה למס גולגולת — וכך משפחות מקומיות התעשרו כסוחרים ורועי צאן עם רשתות מסחר עד קונסטנטינופול, רוסיה ורומניה, והשקיעו את העושר הזה בבתי אבן מפוארים, כנסיות וגשרי אבן קשתיים שעדיין מגדירים את האזור. קניון ויקוס הוא הלב הטבעי של האזור — ספר השיאים גינס מכיר בו כקניון העמוק בעולם ביחס לרוחבו: בנקודה הדרמטית ביותר הוא כ-900 מ' עומק לעומת כ-1,100 מ' רוחב משפה לשפה, כלומר מרגישים כמו עומדים מעל תהום צרה, לא עמק רחב כמו הגרנד קניון.",
+        "tips": "6-8 שעות מלאות, לפעמים עד 10. מתחילים מוקדם (8:00-9:00 בבוקר) כי הקטע האחרון תלול וביער שמחשיך מהר (הותקנו חבלי אחיזה בקטע העלייה התלול ליד מונודנדרי). אין תחב״צ בקצוות — מזמינים מונית חזרה מראש (כ-€35-40) או משאירים רכב שני. קחו הרבה מים — לא כל מקורות המים לאורך המסלול ראויים לשתייה. ⚠️ סכנת שיטפונות פתאומיים אחרי סופות — דחו את הטרק אם צפוי גשם/סופות רעמים. האזור סבל משיטפונות ומפולות אדמה חוזרות (אוגוסט 2024, נובמבר 2025) — מומלץ לבדוק תנאים מקומית (בפאפיגו/מונודנדרי או באקומוזיאון) בבוקר היציאה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Vikos_Gorge_18.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/2/25/Vikos_Gorge_Forest_Kapesovo_Route.jpg"
+        ]
+      },
+      {
+        "id": "beloi-viewpoint",
+        "name": "תצפית בלוי מוראדטו (האלטרנטיבה הקלה)",
+        "type": "hike",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.918,
+          20.75
+        ],
+        "hike": {
+          "km": 3,
+          "difficulty": "easy",
+          "elevationGain": 115,
+          "start": "וראדטו",
+          "end": "וראדטו (הלוך-חזור)"
+        },
+        "description": "מסלול קצר וקל מכפר וראדטו (הכפר הגבוה ביותר בזגוריה, 1,340 מ') לפלטפורמת סלע חשופה מעל הקניון, עם נוף לפאפיגו ולמגדלי אסטרקה — נחשב לתצפית הכי טובה באזור בלי המחויבות של החציה המלאה.",
+        "tips": "⚠️ אזהרת בטיחות עדכנית: באפריל 2026 דווח על סדק/שקיעת קרקע מסוכנת (רוחב כ-1 מ', מעל צניחה של 200 מ') בדיוק במסלול הלולאה המורחבת וראדטו-אבגרינוס, ליד השילוט \"Kato Skala – Mega Lakkos\" — לא במסלול הישיר והקצר וראדטו→בלוי עצמו, אבל קרוב אליו. נכון לאמצע 2026 לא נמצא אישור לתיקון. הישארו על השביל הישיר והמסומן לבלוי בלבד, אל תרחיבו למעגל אבגרינוס המלא בלי לבדוק מצב מקומית קודם (מלון/אקומוזיאון/עירייה).",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/cd/Vikos_Gorge_from_Beloe.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vikos_Gorge_seen_from_Beloi_Viewpoint%2C_September_2022_02.jpg"
+        ]
+      },
+      {
+        "id": "papingo-rock-pools",
+        "name": "בריכות הסלע הטבעיות של פאפיגו (Ovires)",
+        "type": "hike",
+        "mustDo": true,
+        "durationMinutes": 60,
+        "coords": [
+          39.93,
+          20.746
+        ],
+        "hike": {
+          "km": 2.6,
+          "difficulty": "easy",
+          "elevationGain": 40,
+          "start": "מגלו פאפיגו",
+          "end": "בריכות הסלע (הלוך-חזור)"
+        },
+        "description": "בריכות טורקיז חצובות בערוץ נחל רוגובו, כ-1.3 ק\"מ ממגרש החניה המרכזי במגלו פאפיגו דרך שביל אבן מסומן.",
+        "tips": "פופולרי לשחייה — יכול להיות קר, במיוחד בסוף ספטמבר. הגיעו בבוקר לפני שמתמלא.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/eb/D70-0661-natural-pools-of-Papingo.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/b/ba/Papingo_rock_pools.jpg"
+        ]
+      },
+      {
+        "id": "papingo-villages-stroll",
+        "name": "שיטוט במגלו ומיקרו פאפיגו",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.928,
+          20.747
+        ],
+        "description": "שני כפרי האבן למרגלות מגדלי אסטרקה — הבסיס הכי ציורי בזגוריה. כ-10-15 דק' הליכה מחברת בין השניים.",
+        "tips": "אווירה שקטה ומרוחקת יותר ממונודנדרי.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/17/Mikro_Papingo_Greece_%2883505445%29.jpeg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c6/Papingo_street.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/83/MikroPapigko1.jpg"
+        ]
+      },
+      {
+        "id": "monodendri-oxia",
+        "name": "מונודנדרי: תצפית אוקסיה ומנזר אגיה פרסקבי",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.887,
+          20.766
+        ],
+        "description": "כפר הזגוריה הכי \"מפותח\" (בתי קפה, כיכר, הכספומט היחיד לק\"מ רבים). תצפית אוקסיה כ-10 דק' נסיעה מהכפר — נוף עוצר נשימה לקניון (יש גם גרסת הליכה ארוכה יותר דרך תצורות סלע \"היער האבן\", כ-2.5-3 שעות בינוני). מנזר אגיה פרסקבי, כ-10 דק' הליכה מהכפר, בנוי על מרפסת אבן מעל צניחה של 900 מ' לקניון (נוסד 1413-1414) — כבר לא קהילה נזירית פעילה, אך הקפלה עצמה פתוחה לכניסה וצפייה.",
+        "tips": "אפשר לעשות את השניים יחד בכ-1.5-2 שעות גם בלי לצאת לחציה המלאה. תצפית אוקסיה מומלצת בשעת \"הזהב\" לצילום. שביל נוסף (כ-500 מ') ממשיך מהמנזר למערות נזירים ישנות — צר וחשוף יותר, זהירות.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/2/2e/Monodendri.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/51/Zagori_-_Monodendri%2C_Agia_Paraskevi_%282%29_-_panoramio.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/5a/Zagori_Vikos_gorge_Oxia_towards_Vikos.jpg"
+        ]
+      },
+      {
+        "id": "stone-bridges-walk",
+        "name": "מסלול גשרי האבן (קלוגריקו, קוקורוס, מיסיוס)",
+        "type": "hike",
+        "mustDo": false,
+        "durationMinutes": 120,
+        "coords": [
+          39.87,
+          20.745
+        ],
+        "hike": {
+          "km": 5,
+          "difficulty": "easy",
+          "elevationGain": 60,
+          "start": "ויצה",
+          "end": "קיפי / קוקולי (מעגל)"
+        },
+        "description": "שלושה גשרי אבן עתיקים קלים להליכה, כולם מאומתים כשלמים ותקינים: קלוגריקו (משולש-קשתות, 1814, בין קיפי לקוקולי), קוקורוס/נוצוס (קשת יחידה, 1750, על נהר וידומטיס), ומיסיוס (דו-קשתי, 1748, דרך \"מדרגות ויצה\"). ניתן לשלב את כולם ביום רגוע אחד.",
+        "tips": "כל המקטעים קלים ומתחת לשעתיים — שילוב נחמד עם עצירת יין/טברנה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/66/Kalogeriko_Bridge%2C_September_2022_01.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/a9/%CE%93%CE%B5%CF%86%CF%85%CF%81%CE%B9_%CE%9C%CE%B9%CF%83%CE%B9%CE%BF%CF%85.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f5/Bridge_of_Kokkori_or_Noutsos.jpg"
+        ]
+      },
+      {
+        "id": "vradeto-steps",
+        "name": "מדרגות וראדטו (הרחבה לוראדטו-קפסובו)",
+        "type": "hike",
+        "mustDo": false,
+        "durationMinutes": 120,
+        "coords": [
+          39.917,
+          20.747
+        ],
+        "hike": {
+          "km": 4,
+          "difficulty": "moderate",
+          "elevationGain": 250,
+          "start": "קפסובו",
+          "end": "וראדטו"
+        },
+        "description": "כ-600 מ' של מדרגות אבן עם 17 עיקולים (מוכר גם כ\"סקלה וראדטו\") המחברות בין וראדטו לכפר קפסובו שלמטה — עד 1973 הייתה זו הדרך היחידה לוראדטו. בפסגה יש טברנה נחמדה בשם \"סקלה וראדטו\" למנוחה.",
+        "tips": "⚠️ אם מרחיבים את המעגל לכיוון אבגרינוס/בלוי — ראו את אזהרת הבטיחות בכרטיס תצפית בלוי לעיל (סדק קרקע מדווח מאפריל 2026). מסלול קפסובו↔וראדטו הישיר עצמו ללא הרחבה נחשב תקין.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/0/00/Vradeto_Steps%2C_Greece%2C_September_2022_01.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/73/Skala_Vradetou_1.jpg"
+        ]
+      },
+      {
+        "id": "tsepelovo-village",
+        "name": "כפר צפלובו",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          39.9,
+          20.817
+        ],
+        "description": "הגדול בכפרי זגוריה (כ-500 תושבים), נוצר במאה ה-14 מאיחוד יישובים קטנים יותר. הכיכר המרכזית מכילה את כנסיית אגיוס ניקולאוס (פרסקאות מ-1786). תשתית תיירותית הכי מפותחת מבין הכפרים הקטנים — בסיס לינה סביר.",
+        "tips": "",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/6f/Tsepelovo_view_spring.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/17/St_Nicholas_Tsepelovo_eastern_side.jpg"
+        ]
+      },
+      {
+        "id": "koukouli-village",
+        "name": "כפר קוקולי",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          39.8797,
+          20.7719
+        ],
+        "description": "יושב בפתח הדרומי של קניון ויקוס — נקודת התחלה/סיום נפוצה לטרק ולמסלול הגשרים. מכיל מוזיאון בוטני קטן (\"קוסטס לזרידיס\") המתעד למעלה מ-1,300 מיני צמחים אכילים/רפואיים מהאזור.",
+        "tips": "עצירה נעימה אחרי הליכה, לפני/אחרי הגשרים.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/0/02/Koukouli_View.jpg"
+        ]
+      },
+      {
+        "id": "dilofo-village",
+        "name": "כפר דילופו",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          39.8519,
+          20.7644
+        ],
+        "description": "אחד הכפרים המשומרים והכי פחות מסחריים בזגוריה — בנוי בסגנון אמפיתיאטרלי על שתי גבעות (השם פירושו \"שתי גבעות\"). אין רכבים בליבת הכפר, ולכן הוא עדיין מרגיש קפוא במאות ה-17-18: גגות צפחה, מרפסות עץ, כיכר מרכזית קסומה, ואחוזת מקרופולוס — הגבוהה בזגוריה (13.5 מ').",
+        "tips": "שקט יותר מפאפיגו/מונודנדרי — טוב למי שמחפש אותנטיות.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/c9/Dilofo%2C_Ioannina.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/15/Dilofo.jpg"
+        ]
+      },
+      {
+        "id": "vikos-village",
+        "name": "כפר ויקוס וקפלת פנאיה",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 120,
+        "coords": [
+          39.967,
+          20.733
+        ],
+        "description": "כפר זעיר ממש על שפת הקניון (על שמו נקרא הקניון). שווה עצירה רק בשביל הנוף — רואים ישר לתוך הקניון בלי לטרוק כלל. משם יורד שביל של כשעה לקפלת פנאיה ולמעיינות וידומטיס, שבהם אפשר לשקוע/לשחות במים טורקיז וקרים — טעימה קצרה מקרקעית הקניון בלי להתחייב לחציה של 20 ק\"מ.",
+        "tips": "אופציה נחמדה למי שרוצה \"טעימה\" מהקניון בלי הטרק המלא.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vikos_Gorge_seen_from_Beloi_Viewpoint%2C_September_2022_02.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/16/Vikos-church-a.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f0/Vikos-church-b.jpg"
+        ]
+      },
+      {
+        "id": "negades-church",
+        "name": "כנסיית אגיוס גיאורגיוס בנגאדס",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          39.868,
+          20.769
+        ],
+        "description": "כנסיית עץ בת שלוש ספינות מ-1792-95 בכפר הקטן נגאדס, ייחודית ביוון בכך שהיא משלבת פרסקאות של קדושים אורתודוקסים לצד דיוקנאות של פילוסופים יווניים עתיקים (אריסטו, פלוטארכוס) בתוך כנסייה — עדות יוצאת דופן לאותו עושר מסחרי מתקופת השלטון העות'מאני שבנה גם את אחוזות האבן.",
+        "tips": "אם הדלת נעולה, שאלו מקומית לגבי כניסה. מומלץ בשעות אור יום.",
+        "images": []
+      },
+      {
+        "id": "drakolimni",
+        "name": "דרקולימני (אגם הדרקון) — האופציה הקיצונית",
+        "type": "hike",
+        "mustDo": false,
+        "durationMinutes": 600,
+        "coords": [
+          39.994,
+          20.787
+        ],
+        "hike": {
+          "km": 14,
+          "difficulty": "hard",
+          "elevationGain": 1000,
+          "start": "מיקרו פאפיגו",
+          "end": "דרקולימני (הלוך-חזור, דרך מקלט אסטרקה)"
+        },
+        "description": "⚠️ סביר להיות יותר מדי לטיול הזה — מוזכר רק כ\"תקרה\" האפשרית. אגם קרחוני קטן בגובה כ-2,050 מ' בהר טימפי, מוקף פסגות אבן גיר חשופות, עם אוכלוסיית סלמנדרות אלפיניות נדירה. זו הליכת הרים אמיתית עם טיפוס משמעותי, שונה לגמרי מכל שאר האטרקציות ברשימה.",
+        "tips": "מפאפיגו למקלט אסטרקה כ-6-8 ק\"מ/1,000 מ' טיפוס (3.5-4 שעות), משם לאגם עוד כ-3 ק\"מ/270 מ' (1.5 שעות כל כיוון). יום מלא ריאלי הוא 8-10+ שעות, או לינה במקלט (פועל בערך מאי-אוקטובר). דורש כושר וניסיון הליכה הררית של ממש — לא מומלץ כתוספת קלה למסלול הזה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/9/9d/Drakolimni_Tymfi.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/0/05/%CE%94%CF%81%CE%B1%CE%BA%CE%BF%CE%BB%CE%AF%CE%BC%CE%BD%CE%B7_%CE%A4%CF%8D%CE%BC%CF%86%CE%B7%CF%82.jpg"
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Astra",
+        "note": "מחוץ למגלו פאפיגו, מרפסת מול מגדלי אסטרקה, פשטידות וטלה",
+        "area": "פאפיגו"
+      },
+      {
+        "name": "Salvia (Aristi Mountain Resort)",
+        "note": "מטבח אפירוטי עכשווי — פורל, מזה צ׳יפורו, סלט זגוריה",
+        "area": "אריסטי"
+      },
+      {
+        "name": "Kanella kai Garifallo",
+        "note": "פטריות בר ורשימת יינות חזקה",
+        "area": "ויצה"
+      },
+      {
+        "name": "Sta Riza",
+        "note": "בישול ביתי — פשטידות, שעועית ענק, בישול בסיר חרס (סטי גסטרה)",
+        "area": "כביש ויצה-מונודנדרי"
+      }
+    ],
+    "wineries": [
+      {
+        "name": "Domaine Glinavos",
+        "note": "יקב מ-1978 ליד זיציה, יין דבינה מקומי (כולל \"פאלאוקריסיו\" התוסס), טעימות עם מזה מקומי וסיורים מודרכים."
+      },
+      {
+        "name": "Zoinos Winery",
+        "note": "שיתופי היינות הראשון בצפון-מערב יוון (1974), בכפר זיציה עצמו (~700 מ' גובה), יין דבינה מסורתי."
+      }
+    ],
+    "lodgingAreas": [
+      {
+        "area": "פאפיגו",
+        "note": "הבסיס הכי ציורי — עדיף אם החציה המלאה של ויקוס ו/או בריכות הסלע בראש סדר העדיפויות."
+      },
+      {
+        "area": "מונודנדרי",
+        "note": "הכי נוח לוגיסטית — הכי הרבה חדרים ומסעדות, כספומט יחיד, גישה ישירה לתצפית אוקסיה ולנקודת הפתיחה הדרומית של הקניון."
+      },
+      {
+        "area": "קאטו פדינה (סודנה)",
+        "note": "אלטרנטיבה מרכזית ושקטה יותר, בין מונודנדרי לפאפיגו."
+      }
+    ],
+    "logisticsTips": [
+      "תדלקו ביוואנינה או קלפאקי לפני הכניסה לזגוריה — תחנות דלק נדירות בפנים.",
+      "כבישים הרריים צרים ומתפתלים עם עיקולים חדים — נהיגה איטית, במיוחד בלילה.",
+      "ספטמבר: כ-24-26° ביום, 12-14° בלילה, כ-7 ימי גשם בממוצע לחודש — קחו שכבות ומעיל גשם קל.",
+      "⚠️ האזור סבל משני אירועי שיטפון/מפולת אדמה משמעותיים בשנתיים האחרונות (אוגוסט 2024, נובמבר 2025, האחרון עם הכרזת מצב חירום עד פברואר 2026). אם יורד גשם חזק בזמן הטיול — עדיפו יום כפרים על פני טרק בקניון, ובדקו תנאי שביל מקומית (מלון/אקומוזיאון בענו פדינה/פאפיגו) לפני טרקים משמעותיים."
+    ]
+  },
+  {
+    "id": "volos",
+    "name": "וולוס",
+    "region": "תסליה (מזרח)",
+    "coords": [
+      39.362,
+      22.945
+    ],
+    "summary": "עיר נמל על מפרץ פגאסיטי, שער הכניסה לפליו — טיילת ארוכה ותרבות ה\"טסיפורדיקו\" (מזה + טסיפורו) שנולדה כאן, וגם כמה מהאתרים הפרהיסטוריים החשובים באירופה.",
+    "suggestedStay": "לילה אחד",
+    "heroImage": "",
+    "attractions": [
+      {
+        "id": "volos-waterfront",
+        "name": "הטיילת של וולוס",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.361,
+          22.942
+        ],
+        "description": "וולוס היא עיר נמל בראש המפרץ הפגאסיטי (מפרץ אגאי סגור כמעט לחלוטין, נראה כמו אגם). הטיילת שלה נמתחת כ-4 ק\"מ לאורך הנמל, מלאה בדקלים, בתי קפה וברי טסיפורו/אוזו — הלב החברתי של העיר בערב, שבו מקומיים יוצאים ל\"וולטה\" (טיול ערב מסורתי ים-תיכוני).",
+        "tips": "נעימה גם בבוקר וגם בערב, במיוחד לשקיעה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/a6/Volos_waterfront.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/a9/Volos_harbor_view.jpg"
+        ]
+      },
+      {
+        "id": "tsipouradiko-evening",
+        "name": "ערב טסיפורדיקו",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 150,
+        "coords": [
+          39.363,
+          22.942
+        ],
+        "description": "טסיפורו הוא משקה חריף יווני צלול (38-45% אלכוהול) המזוקק משאריות הענבים (קליפות, גבעולים, גרעינים) שנשארות אחרי ייצור יין — לא זורקים כלום. דומה מבחינה טכנית לגראפה האיטלקית או למארק הצרפתי. שונה מהאוזו המוכר יותר בעולם בעיקר בטעם: אוזו מתובל בכוונה באניס (טעם שוש) ונהיה עכור כשמוסיפים מים/קרח, בעוד טסיפורו טהור נשאר צלול וטעמו הוא טעם הענב עצמו (יש גם גרסה בטעם אניס גם כאן). וולוס מפורסמת בכל יוון כבירת הטסיפורו — \"טסיפורדיקו\" היא טברנה קטנה שבה מזמינים טסיפורו בקנקנים קטנים (200-500 מ\"ל), וכל סיבוב מגיע אוטומטית עם צלחת מזה קטנה וחינמית שהמטבח בוחר — כך שהערב הופך לטעימה מתגלגלת של אוכל ומשקה, לא ארוחה גדולה אחת שמזמינים מראש.",
+        "tips": "הזמינו בסיבובים, לא ארוחה גדולה מראש — תנו למזה להגיע עם כל קנקן. הטיילת עצמה מלאה גרסאות תיירותיות; כמה רחובות פנימה יש גרסאות מקומיות יותר.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Bottle_of_Tsipouro.jpg/500px-Bottle_of_Tsipouro.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/%CE%9A%CE%B1%CE%B6%CE%AC%CE%BD%CE%B9_%CF%84%CF%83%CE%AF%CF%80%CE%BF%CF%85%CF%81%CE%BF%CF%85.jpg/500px-%CE%9A%CE%B1%CE%B6%CE%AC%CE%BD%CE%B9_%CF%84%CF%83%CE%AF%CF%80%CE%BF%CF%85%CF%81%CE%BF%CF%85.jpg"
+        ]
+      },
+      {
+        "id": "athanasakeio-museum",
+        "name": "המוזיאון הארכיאולוגי אתנסאקיו",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          39.361,
+          22.943
+        ],
+        "description": "אחד המוזיאונים הבנויים-לצורך הוותיקים ביותר ביוון (נפתח 1909, מבנה ניאו-קלאסי), במימון סוחר מקומי. חשוב לטיול הזה בגלל סקלו ודימיני (למטה) — שם רואים היום רק גבעות עפר עם הסבר מוגבל, אבל כלי החרס המצוירים, הכלים והממצאים האמיתיים מוצגים כאן עם הקשר, כך שביקור במוזיאון לפני/אחרי שני האתרים משלים את התמונה.",
+        "tips": "שעות קיץ (1.6–31.10): שלישי-ראשון 8:00-20:00, סגור שני. חורף: שלישי-ראשון 8:00-15:00. כרטיס זול, כ-€2-4.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Archaeological_Museum_of_Volos.jpg/500px-Archaeological_Museum_of_Volos.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Funerary_stele_of_Antigenes.jpg/500px-Funerary_stele_of_Antigenes.jpg"
+        ]
+      },
+      {
+        "id": "sesklo",
+        "name": "היישוב הפרהיסטורי סקלו",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          39.384,
+          22.861
+        ],
+        "description": "\"נאוליתי\" פירושו תקופת האבן החדשה — התקופה (בערך 7000-3300 לפנה\"ס ביוון) שבה בני אדם באזור הזה התיישבו לראשונה בכפרי חקלאות קבועים במקום לנדוד ולצוד/ללקט. סקלו נחשב היישוב המאורגן העתיק ביותר הידוע ביבשת אירופה — כ-7,000 שנה, הרבה לפני אתונה, האקרופוליס או המיתולוגיה היוונית המוכרת. מבחינה חזותית זהו אתר צנוע — יסודות קיר אבן נמוכים על גבעה עם נוף לים — לא הריסת מקדש דרמטית, אז כדאי להגיע עם ציפייה ל\"למה זה עתיק\" ולא לתמונה מרשימה.",
+        "tips": "שעות: בקיץ בערך 8:30-15:30 (יום סגירה משתנה בין המקורות — מומלץ לוודא סמוך לביקור). כ-15 ק\"מ ממערב לוולוס. שלבו עם דימיני (10 דק' נסיעה) והמוזיאון כבוקר ארכיאולוגי אחד.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sesklo_DSC_2020a.jpg/500px-Sesklo_DSC_2020a.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Sesklo_Megaro_DSC_2007a.jpg/500px-Sesklo_Megaro_DSC_2007a.jpg"
+        ]
+      },
+      {
+        "id": "dimini",
+        "name": "היישוב הפרהיסטורי דימיני",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          39.372,
+          22.901
+        ],
+        "description": "אתר אחות מאוחר קצת יותר לסקלו (תקופה נאוליתית מאוחרת, כ-5300-4800 לפנה\"ס) ומרשים יותר מבחינה חזותית — 6-7 חומות אבן קונצנטריות מקיפות מבנה מרכזי (\"מגרון\", עיצוב אולם מלבני מוקדם שממנו שאבו השראה גם ארמונות מיקנה המאוחרים וגם המקדשים היווניים הראשונים). כלומר זהו אב-טיפוס אדריכלי ישיר לצורות שיחזרו במשך יותר מ-3,000 שנות בנייה יוונית.",
+        "tips": "כ-5 ק\"מ מוולוס. פתוח יומיומית מלבד שני, בערך 8:30-15:00. כניסה זולה (כ-€2). 20-30 דק' מספיקות.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Dimini_DSC_2044a.jpg/500px-Dimini_DSC_2044a.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Dimini%2C_buildings_on_W_terrace.jpg/500px-Dimini%2C_buildings_on_W_terrace.jpg"
+        ]
+      },
+      {
+        "id": "volos-train-museum",
+        "name": "תחנת הרכבת ומוזיאון רכבת תסליה",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          39.365,
+          22.945
+        ],
+        "description": "מבנה התחנה (נבנה 1884) ניצל מרעידות האדמה של 1955 שהרסו חלק גדול משאר העיר, ועדיין פועל כתחנה אמיתית — עם מוזיאון קטן בקומה הראשונה. זו נקודת היציאה לרכבת ההררית הצרה של פליו (ראו בעמוד פליו), ושווה עצירה של 20 דק' גם בלי לנסוע ברכבת — כרטיסים ישנים, מדים, וציוד טלגרף מוצגים.",
+        "tips": "בדקו שעות פתיחה מקומית — מוזיאון עירוני קטן עם שעות מוגבלות לעיתים.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Volos_rail_station.jpg/500px-Volos_rail_station.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/0-4-0T_Decauville_loco_and_open-sided_summer_coaches_at_Volos_in_Greece.jpg/500px-0-4-0T_Decauville_loco_and_open-sided_summer_coaches_at_Volos_in_Greece.jpg"
+        ]
+      }
+    ],
+    "restaurants": [],
+    "wineries": [],
+    "lodgingAreas": [
+      {
+        "area": "מרכז וולוס / הטיילת",
+        "note": "בסיס נוח ללילה אחד לפני/אחרי יום בכפרי פליו."
+      }
+    ],
+    "logisticsTips": [
+      "שער הכניסה לפליו — כל הכפרים במרחק דקות ספורות עד כחצי שעה נסיעה."
+    ]
+  },
+  {
+    "id": "pelion",
+    "name": "פליו",
+    "region": "תסליה (מזרח)",
+    "coords": [
+      39.39,
+      23
+    ],
+    "summary": "חצי אי הררי-יערי עם כפרי אבן וגגות צפחה, חופים נסתרים על המפרץ האגאי, ויערות ערמונים — אך במרחק נסיעה משמעותי מזגוריה ומאפירוס.",
+    "suggestedStay": "2 לילות (אם נכלל במסלול)",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Makrinitsa_Banner.jpg",
+    "attractions": [
+      {
+        "id": "makrinitsa",
+        "name": "מקריניצה — \"המרפסת של פליו\"",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.383,
+          22.967
+        ],
+        "description": "כפר ציורי בגובה כ-600 מ' מעל וולוס. בתי אבן אפורה עם גגות צפחה קווים לאורך סמטאות שרכבים לא יכולים להיכנס אליהן, סביב כיכר עם עץ דולב ענק, מזרקת שיש וכנסייה ביזנטית. במיתולוגיה היוונית, הר פליו הוא ביתו של קירון — קנטאור (יצור חצי-אדם חצי-סוס) שבניגוד לרוב הקנטאורים הפראיים במיתולוגיה, תואר כחכם, אדיב ומיטיב, ושימש מורה אישי לגיבורים יווניים גדולים כמו אכילס ויאסון. זה חלק מהסיבה שפליו נושא מאז ומתמיד הילה של פראות ומיתוס, שונה מהאתרים ה\"מתורבתים\" יותר בדרום יוון.",
+        "tips": "יש גם מוזיאון אמנות עממית קטן (אחוזת טופאלי). הגיעו מוקדם/מאוחר — אוטובוסי טיולים מציפים את הכיכר בצהריים.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Central_Makrinitsa.jpg/500px-Central_Makrinitsa.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Hollow_Platanus_of_Makrinitsa.jpg/500px-Hollow_Platanus_of_Makrinitsa.jpg"
+        ]
+      },
+      {
+        "id": "milies-vyzitsa-kalderimi",
+        "name": "מסלול הקלדרימי מיליות–ויזיצה",
+        "type": "hike",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.342,
+          23.088
+        ],
+        "hike": {
+          "km": 5,
+          "difficulty": "easy",
+          "elevationGain": 150,
+          "start": "מיליות (התחנה הישנה)",
+          "end": "ויזיצה (מעגל)"
+        },
+        "description": "\"קלדרימי\" הוא שביל אבן מרוצף עתיק — רשת הכבישים המקורית של יוון ההררית לפני המכוניות, שנבנה כדי שיהיה הליך/רכיב על חיות משא בין כפרים. הקלדרימי הזה חוצה יער ערמונים ועצי אגוז, חוצה את נהר מילופוטמוס על גשר אבן עתיק, ומחבר בין שלושה מהכפרים היפים ביותר בפליו. דיווחי מטיילים עדכניים (2023-2025) מתארים אותו כ\"שמור היטב\" ו\"תלול אך לא מסוכן\".",
+        "tips": "כ-1.5 שעה למעגל השלם — נעלי הליכה טובות מומלצות (אבני הריצוף חלקלקות כשרטובות).",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Milies_-_2.JPG/500px-Milies_-_2.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CE%AE_%CF%80%CE%BB%CE%B1%CF%84%CE%B5%CE%AF%CE%B1_%CE%92%CF%85%CE%B6%CE%AF%CF%84%CF%83%CE%B1%CF%82_9685.jpg/500px-%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CE%AE_%CF%80%CE%BB%CE%B1%CF%84%CE%B5%CE%AF%CE%B1_%CE%92%CF%85%CE%B6%CE%AF%CF%84%CF%83%CE%B1%CF%82_9685.jpg"
+        ]
+      },
+      {
+        "id": "mylopotamos-beach",
+        "name": "חוף מילופוטמוס",
+        "type": "beach",
+        "mustDo": true,
+        "durationMinutes": 180,
+        "coords": [
+          39.254,
+          23.137
+        ],
+        "beachCharacter": "חצץ לבן וחול, מים טורקיז, מפוצל לשני מפרצים על ידי בליטת סלע דרמטית (טבעית, קבועה)",
+        "access": "נגיש ברכב, גרם מדרגות בנוי לחוף",
+        "description": "החוף הפופולרי והמצולם ביותר בפליו — נוף פרוע ומרהיב.",
+        "tips": "מגיע להיות עמוס באמצע היום בעונה — הגיעו מוקדם, במיוחד בספטמבר.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Beach_Mylopotamos.jpg/500px-Beach_Mylopotamos.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mylopotamos.jpg/500px-Mylopotamos.jpg"
+        ]
+      },
+      {
+        "id": "fakistra-beach",
+        "name": "חוף פאקיסטרה",
+        "type": "beach",
+        "mustDo": false,
+        "durationMinutes": 150,
+        "coords": [
+          39.288,
+          23.129
+        ],
+        "beachCharacter": "מפרץ קטן מוקף סלעים ירוקים, מים זוהרים, טוב לשנורקלינג",
+        "access": "שביל תלול קבוע (מאפיין טבעי של החוף, לא נזק) של כ-200 מ' למטה, כ-10-15 דק' — אין גישת רכב",
+        "description": "אחד החופים המצולמים ביותר בפליו, ללא גישת דרך — נגיש רק ברגל, מה שהופך אותו לאחד המבודדים והפחות מפותחים בחוף המזרחי.",
+        "tips": "נעליים טובות לירידה בשביל הסלעי, אין מתקנים בחוף עצמו — קחו מים ואוכל.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Fakistra_1.jpg/500px-Fakistra_1.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Beach_Fakistra_3.jpg/500px-Beach_Fakistra_3.jpg"
+        ]
+      },
+      {
+        "id": "portaria-tsagarada-stroll",
+        "name": "פורטריה וטסאגאראדה",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 90,
+        "coords": [
+          39.372,
+          22.986
+        ],
+        "description": "פורטריה: הכפר הכי נגיש בפליו, כ-20 דק' מוולוס — עצירה ראשונה קלה טובה. טסאגאראדה: לא כפר קומפקטי אחד אלא ארבעה שכונות-כפר נפרדות פזורות על 3 ק\"מ יער ערמונים (אגיה פרסקבי, אגיוס סטפאנוס, אגיוס טקסיארכיס, אגיוס יואניס), כל אחת עם כנסייה וכיכר משלה. המפורסם מכולם: עץ דולב ענק בכיכר אגיה פרסקבי, בן כ-1,000 שנה לפי המסורת המקומית, עם היקף גזע של כ-14 מ' — נחשב לאחד הדולבים הגדולים/עתיקים באירופה.",
+        "tips": "ודאו לאיזו \"שכונה\" של טסאגאראדה אתם נוסעים — הן מפוזרות.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/PortariaSquare.JPG/500px-PortariaSquare.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/8/88/%CE%A0%CE%BB%CE%AC%CF%84%CE%B1%CE%BD%CE%BF%CF%82_1000_%CF%87%CF%81%CF%8C%CE%BD%CF%89%CE%BD%21.jpg"
+        ]
+      },
+      {
+        "id": "zagora-village",
+        "name": "כפר זגורה",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          39.332,
+          23.092
+        ],
+        "description": "כפר גדול ופחות תיירותי בצד המזרחי (המפנה לאגאי) של פליו — היסטורית עיירת מסחר אוטונומית תחת השלטון העות'מאני, עם ספרייה ציבורית מהמאה ה-18 עם ספרים נדירים שעדיין משומרת. מפורסם מקומית במטעי תפוחים (זן אדום מוגן מקומי). מהכיכר המרכזית אפשר לרדת בהליכה כ-3 ק\"מ לעיירת הנמל שלה, חוראפטו.",
+        "tips": "אלטרנטיבה טובה למי שרוצה עיירה \"אמיתית\" ומיושבת, פחות גלויית-נוף.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/IMG_Zagora_-_Agios_Georgios_Square.jpg/500px-IMG_Zagora_-_Agios_Georgios_Square.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Zagora_Saint_George_Chruch-01.jpg/500px-Zagora_Saint_George_Chruch-01.jpg"
+        ]
+      },
+      {
+        "id": "pelion-train",
+        "name": "רכבת פליו הצרה (\"מוצוריס\")",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 180,
+        "coords": [
+          39.342,
+          23.036
+        ],
+        "description": "רכבת היסטורית בציר הצר ביותר באירופה (60 ס\"מ), נבנתה בתחילת המאה ה-20 במיוחד כדי להתמודד עם העיקולים החדים של פליו — אותה רכבת שמתועדת במוזיאון של וולוס. הכינוי \"מוצוריס\" (\"המפויח\") מגיע מעשן קטר הקיטור. הנסיעה (90 דק' כיוון אחד) מטפסת דרך יער על גשרי אבן וויאדוקטים.",
+        "tips": "פועלת בסופ\"ש (שבת-ראשון) מאביב עד סתיו, יוצאת מאנו לחוניה 10:00, חוזרת ממיליות 15:00. הזמינו מראש (tickets.hellenictrain.gr) — נגמרים המקומות בסופ\"ש קיץ. כרטיס הלוך-חזור כ-€18 מבוגר.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/K01_180_Mil%C3%ADes.jpg/500px-K01_180_Mil%C3%ADes.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/20081102_ALCo_A-208_01.jpg/500px-20081102_ALCo_A-208_01.jpg"
+        ]
+      },
+      {
+        "id": "damouchari-beach",
+        "name": "דמוצ'רי (חוף \"מאמא מיה\")",
+        "type": "beach",
+        "mustDo": false,
+        "durationMinutes": 120,
+        "coords": [
+          39.281,
+          23.119
+        ],
+        "beachCharacter": "מפרץ כפול קטן, חצץ וחול גס, מוקף שלוחת ירק עם שרידי מבצר קטן",
+        "access": "נגיש ברכב, חוף וקרוב טבעי קטן",
+        "description": "הנמל הטבעי היחיד בחוף האגאי של פליו. הפך מוכר בעולם אחרי שכמה סצנות מהסרט \"מאמא מיה!\" (2008) צולמו כאן — כולל סצנת הרציף המפורסמת. שקט, פוטוגני, טברנה אחת וקפה על המים.",
+        "tips": "קטן — טוב לעצירת שחייה, לא ליום חוף שלם. שלבו עם מסלול מיליות-ויזיצה או הרכבת.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Damouchari_bay_Pelion_1.jpg/500px-Damouchari_bay_Pelion_1.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Ntamouchari_-_beach_Mamma_Mia%21.jpg/500px-Ntamouchari_-_beach_Mamma_Mia%21.jpg"
+        ]
+      },
+      {
+        "id": "vyzitsa-village",
+        "name": "כפר ויזיצה",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          39.346,
+          23.079
+        ],
+        "description": "נחשב לכפר השמור ביותר מבחינה אדריכלית בכל פליו, כפר מוגן רשמית. האחוזות מהמאות ה-18-19 (חלקן היום בתי הארחה) משלבות קומת אבן כבדה עם מרפסות עץ עליונות (\"לוג'יה\") — סגנון שבנו סוחרים ובעלי-מלאכה עשירים שהתעשרו ממסחר משי וטקסטיל, במקום בית חווה פשוט כמו במקומות כפריים אחרים ביוון.",
+        "tips": "6 דק' נסיעה מכפר פינאקטס.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Herrenhaus_in_Vizitsa%2C_Pilion.jpg/500px-Herrenhaus_in_Vizitsa%2C_Pilion.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/%CE%91%CF%81%CF%87%CE%BF%CE%BD%CF%84%CE%B9%CE%BA%CF%8C_%CE%92%CE%AD%CF%81%CE%B3%CE%BF%CF%85%2C_%CE%92%CF%85%CE%B6%CE%AF%CF%84%CF%83%CE%B1_9746.jpg/500px-%CE%91%CF%81%CF%87%CE%BF%CE%BD%CF%84%CE%B9%CE%BA%CF%8C_%CE%92%CE%AD%CF%81%CE%B3%CE%BF%CF%85%2C_%CE%92%CF%85%CE%B6%CE%AF%CF%84%CF%83%CE%B1_9746.jpg"
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Cardamo Oinomageireio",
+        "note": "מטבח יווני עכשווי עם נופים — לחיי בקר עם אוריו, כומעות עם בקר ופטריות",
+        "area": "מקריניצה"
+      },
+      {
+        "name": "Taverna Leonidas",
+        "note": "טברנה עם נוף לכיכר הכפר ולמפרץ הפגסיטיקוס",
+        "area": "מקריניצה"
+      },
+      {
+        "name": "Salkimi",
+        "note": "תבשילים איטיים בסירי חרס — גיולבאסי (עז, עגל וחזיר) הספיישל",
+        "area": "מיליות"
+      }
+    ],
+    "wineries": [],
+    "lodgingAreas": [
+      {
+        "area": "פורטריה / מקריניצה",
+        "note": "בסיס הררי טיפוסי לחקר הכפרים."
+      },
+      {
+        "area": "וולוס",
+        "note": "אלטרנטיבה אם רוצים גם את חיי הלילה/טסיפורדיקו."
+      }
+    ],
+    "logisticsTips": [
+      "⚠️ בדיקת היתכנות: פליו נמצא כ-240-265 ק\"מ (כ-3.4-3.6 שעות) מזגוריה/יוואנינה, וכ-330-335 ק\"מ (כ-4.6 שעות) מפרגה. שילוב של גם פרגה וגם פליו באותו מסלול דורש חזרה דרך יוואנינה ומוסיף כ-3.5 שעות נהיגה נטו לעומת מסלול ישיר זגוריה→פרגה→אתונה — בפועל זה עולה כיום שלם.",
+      "המלצה מהמחקר: בחרו פרגה (חוף איוני, סירות לפאקסוס) *או* פליו (כפרי הרים + חופי אגאי + ערב טסיפורדיקו בוולוס) — לא את שניהם, אלא אם מקצרים את זגוריה ללילה אחד בלבד."
+    ]
+  },
+  {
+    "id": "parga",
+    "name": "פרגה",
+    "region": "אפירוס (חוף)",
+    "coords": [
+      39.286,
+      20.401
+    ],
+    "summary": "עיירת חוף קסומה על החוף היוני, עם מבצר ונציאני מעל נמל מתעקל וחופים טורקיז — נקודת הים המרכזית של הטיול.",
+    "suggestedStay": "2 ימים",
+    "heroImage": "",
+    "attractions": [
+      {
+        "id": "parga-old-town",
+        "name": "העיר העתיקה והנמל",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 120,
+        "coords": [
+          39.286,
+          20.401
+        ],
+        "description": "עיירה קטנה ותלולה למרגלות המבצר, עם בתים צבעוניים בסגנון ונציאני-איוני הבנויים במדרגות במורד הגבעה עד לנמל מעוגל מלא מסעדות וסירות דיג — נראית יותר כמו עיירת חוף איטלקית קטנה מאשר יוון היבשתית האופיינית, שריד לשלטון ונציאני ממושך כאן (בניגוד לרוב יוון, החוף הזה כמעט ולא היה תחת שלטון עות'מאני עד תחילת המאה ה-19).",
+        "tips": "הכי יפה בשעות אחר הצהריים המאוחרות והערב.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Overview_of_Parga.jpg/500px-Overview_of_Parga.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pargaharbour.jpg/500px-Pargaharbour.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Parga_1_-_boats.jpg/500px-Parga_1_-_boats.jpg"
+        ]
+      },
+      {
+        "id": "parga-castle",
+        "name": "המבצר הוונציאני",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 60,
+        "coords": [
+          39.287,
+          20.399
+        ],
+        "description": "נבנה על ידי הוונציאנים בתחילת המאה ה-15, הורחב מאוחר יותר על ידי הצרפתים והבריטים ככל שהמבצר עבר ידיים במלחמות תקופת נפוליאון, עד שפרגה נמכרה סופית ב-1819 לעלי פאשה, שליט יוואנינה (עלי פאשה, ר' עמוד יוואנינה) — מכירה שכה כעסה את התושבים המקומיים עד שרבים העדיפו לעזוב את העיר ולא לחיות תחת שלטונו (פרשה מוכרת מקומית, \"הגלות של פרגה\"). כיום זה חורבה אווירתית עם מעברים מקושתים ונוף פנורמי לעיר, לנמל ולאי פנאיה.",
+        "tips": "כניסה חופשית, פתוח עד כ-21:00 בקיץ. סיורים מודרכים אופציונליים ב-10:30 וב-12:15 (כ-€6, שעה). הליכה במעלה על אבנים — נעליים נוחות. הגיעו לשקיעה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Castle_of_Parga.jpg/500px-Castle_of_Parga.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Castle_of_Parga_from_the_sea.jpg/500px-Castle_of_Parga_from_the_sea.jpg"
+        ]
+      },
+      {
+        "id": "panagia-island-viewpoint",
+        "name": "אי פנאיה — נקודת התצפית הקלאסית",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          39.284,
+          20.397
+        ],
+        "description": "אי אורנים זעיר ממש מול חוף קריונרי הראשי של פרגה, עם קפלה קטנה ושרידים עליו — זו התמונה הקלאסית של פרגה (עיר + אי + מבצר במסגרת אחת). האי עצמו נגיש בקיץ בפדל-בוט, קיאק, או שחייה קצרה מחוף קריונרי.",
+        "tips": "המבצר עצמו (ליד כנסיית הבתולה בפנים החומות) הוא נקודת התצפית המוגבהת הטובה ביותר; חוף קריונרי נותן את הזווית הקרובה ביותר לגובה הים.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Isle_of_Panagia.jpg/500px-Isle_of_Panagia.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Parga_with_Island.jpg/500px-Parga_with_Island.jpg"
+        ]
+      },
+      {
+        "id": "valtos-beach",
+        "name": "חוף ואלטוס",
+        "type": "beach",
+        "mustDo": true,
+        "durationMinutes": 180,
+        "coords": [
+          39.291,
+          20.39
+        ],
+        "beachCharacter": "חוף חול/חצץ רך בצורת סהר, כ-3 ק\"מ אורך, מאורגן (ברים, טברנות, ספורט ימי)",
+        "access": "הליכה נופית של כ-20 דק' מעבר לגבעת המבצר, ברכב, או במונית-ים מהנמל",
+        "description": "החוף הגדול והמאורגן של פרגה, מים רגועים.",
+        "tips": "יום שלם קל לבלות שם.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Valtos_beach%2C_Parga.JPG/500px-Valtos_beach%2C_Parga.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Valtos_Beach.JPG/500px-Valtos_Beach.JPG"
+        ]
+      },
+      {
+        "id": "lichnos-beach",
+        "name": "חוף ליכנוס",
+        "type": "beach",
+        "mustDo": false,
+        "durationMinutes": 150,
+        "coords": [
+          39.273,
+          20.414
+        ],
+        "beachCharacter": "חול, כ-3-4 ק\"מ מהעיר, מלונות וטברנות לאורכו, מים רדודים ומדורגים בהדרגה",
+        "access": "ברכב או מונית-ים",
+        "description": "רגוע יותר מוואלטוס — הבחירה הטבעית למשפחות/זוגות בזכות המים הרדודים.",
+        "tips": "",
+        "images": []
+      },
+      {
+        "id": "sarakiniko-beach",
+        "name": "חוף סרקיניקו",
+        "type": "beach",
+        "mustDo": false,
+        "durationMinutes": 150,
+        "coords": [
+          39.26,
+          20.393
+        ],
+        "beachCharacter": "חול וחצץ, מבודד וקטן יותר, פחות מפותח מוואלטוס/ליכנוס",
+        "access": "בעיקר ברכב (נסיעה נופית מתפתלת כ-25 דק') או מונית-ים",
+        "description": "עדיף להגיע בבוקר לפני שמתמלא. שימו לב: לא לבלבל עם ה\"סרקיניקו\" המפורסם באי מילוס (סלעים לבנים) — זהו חוף שונה לגמרי, ליד פרגה.",
+        "tips": "יום שלם נפרד, לא תוספת מהירה.",
+        "images": []
+      },
+      {
+        "id": "paxos-antipaxos-boat",
+        "name": "שייט לפאקסוס ואנטיפאקסוס",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 480,
+        "coords": [
+          39.2,
+          20.18
+        ],
+        "description": "פאקסוס ואנטיפאקסוס הם שני איים איוניים קטנים מדרום לפרגה — אנטיפאקסוס מוכר בזכות אחד המים הכי צלולים וטורקיזיים בים האיוני, על אף היותו זעיר וכמעט לא מיושב (בעיקר כרמי ענבים). שייט יומי מנמל פרגה עם עצירות שחייה בחוף בוטומי (אנטיפאקסוס) ובמערות הכחולות של פאקסוס, לרוב גם עצירה בגאיוס (העיר הראשית של פאקסוס).",
+        "tips": "מאושר כפועל גם בספטמבר (ולפי לוחות הזמנים גם בתחילת אוקטובר). כמו כל שייט סירה קטנה ביוון, טיולים בודדים עלולים להתבטל ברגע האחרון בגלל רוח חזקה (\"מלטמי\") — הזמינו מפעיל שמאפשר החזר/דחייה במקרה כזה, ואל תתזמנו את זה כיום האחרון היחיד שלכם בפרגה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Voutoumi_beach_at_Antipaxoi_from_the_hill.jpg/500px-Voutoumi_beach_at_Antipaxoi_from_the_hill.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Entering_the_port_of_Paxoi.jpg/500px-Entering_the_port_of_Paxoi.jpg"
+        ]
+      },
+      {
+        "id": "acheron-springs",
+        "name": "נהר ומעיינות אכרון",
+        "type": "hike",
+        "mustDo": false,
+        "durationMinutes": 240,
+        "coords": [
+          39.237,
+          20.536
+        ],
+        "hike": {
+          "km": 3,
+          "difficulty": "easy",
+          "elevationGain": 30,
+          "start": "כפר גליקי",
+          "end": "מעיינות אכרון"
+        },
+        "description": "במיתולוגיה היוונית, אכרון היה אחד מנהרות עולם המתים — \"נהר היגון\" — שהאמינו כי צריך לחצות אותו (בסירת המעביר כארון) כדי להיכנס לממלכת האדס, אל המתים. היוונים הקדומים בחרו בנהר האמיתי הזה בין השאר כי חלקים ממנו נעלמים מתחת לאדמה לתוך גיאיות חשוכות — מה שנראה להם כשער פיזי לעולם הבא. היום זה בדיוק ההפך מקודר: נהר רדוד, קר וצלול דרך גיא מוצל, פופולרי לרפטינג עדין, קאנו ושחייה בבריכות טבעיות קטנות.",
+        "tips": "פועל כרגיל — רפטינג, קאנו-קיאק וטיולי סוסים כולם מאושרים כפעילים. המים קרים כל השנה (מקור הררי/מעיינות) — לכו בשביל הנוף, לא לשחייה חמימה. כ-45 דק'-שעה נסיעה מפרגה. שווה לשלב עם עמודיה או הנקרומנטיון.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Acheron_river_springs.jpg/500px-Acheron_river_springs.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Acheron_canyon.jpg/500px-Acheron_canyon.jpg"
+        ]
+      },
+      {
+        "id": "necromanteion",
+        "name": "הנקרומנטיון של אפירה (\"אורקל המתים\")",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 60,
+        "coords": [
+          39.239,
+          20.469
+        ],
+        "description": "\"נקרומנטיון\" פירושו \"אורקל של המתים\" — בניגוד לאורקלים המפורסמים יותר (כמו דלפי) שבהם דיברו עם אלים, כאן, במקום שבו נפגשים אכרון ויובליו ה\"תת-קרקעיים\" המיתולוגיים, האמינו הקדמונים שאפשר להתייעץ עם רוחות אבות מתים לקבלת עצה או נבואה. זהו אתר קדוש אמיתי שפעל מהמאה ה-7 לפנה\"ס בערך — מבקרים עברו טקסי טיהור וירדו לחדרים מקומרים תת-קרקעיים, שנחשבו (ואולי בוימו בכוונה על ידי הכוהנים) כמסע סמלי לעולם האדס לפני \"מפגש\" עם המתים.",
+        "tips": "שעות קיץ (יולי-אוקטובר) 8:00-21:00, חורף 8:00-15:00. כרטיס כ-€10. הריסות קטנות אך אווירתיות — כדאי קצת קריאת רקע מראש או מדריך, כי השילוט באתר מוגבל.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Nekromanteion_of_Acheron.jpg/500px-Nekromanteion_of_Acheron.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Basement_of_Necromanteion.jpg/500px-Basement_of_Necromanteion.jpg"
+        ]
+      },
+      {
+        "id": "ammoudia-beach",
+        "name": "עמודיה — חוף וכפר",
+        "type": "beach",
+        "mustDo": false,
+        "durationMinutes": 150,
+        "coords": [
+          39.231,
+          20.444
+        ],
+        "beachCharacter": "חוף חול ארוך ורחב, מים רדודים ורגועים — שונה מרוב חופי החצץ של פרגה",
+        "access": "נגיש ברכב, כ-20-25 דק' מפרגה",
+        "description": "כפר דייגים קטן בדיוק במקום שבו נהר אכרון נשפך לים. האפשרות הכי טובה לחוף חול ומים שקטים באזור, שאפשר לשלב עם קיאקינג במורד הנהר הרגוע לכיוון הים תוך התבוננות בציפורים (ואולי צבים).",
+        "tips": "יום משולב טוב: מעיינות אכרון בבוקר → ארוחת צהריים → חוף עמודיה אחר הצהריים → אופציונלי הנקרומנטיון בדרך חזרה.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ammoudia_strand2.JPG/500px-Ammoudia_strand2.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Acheron_Coast_%2C_Preveza_Greece.jpg/500px-Acheron_Coast_%2C_Preveza_Greece.jpg"
+        ]
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Taverna Arkoudas",
+        "note": "כדורי קישואים וגבינה, מוסקה, דגים על האש",
+        "area": "פרגה"
+      },
+      {
+        "name": "Andreas Taverna",
+        "note": "ממש מתחת לחומות המבצר",
+        "area": "פרגה"
+      },
+      {
+        "name": "Taverna Sakis",
+        "note": "סאגנאקי שרימפס, צ'יפס ביתי, טלה",
+        "area": "ליד המבצר"
+      },
+      {
+        "name": "Petros Sideris",
+        "note": "טברנת בשרים אהובה על המקומיים — סובלאקי, קוקורצי, סטייקים",
+        "area": "פרגה"
+      }
+    ],
+    "wineries": [],
+    "lodgingAreas": [
+      {
+        "area": "פרגה העיר",
+        "note": "הליכה לנמל ולמבצר, חיה יותר, אך בלי חניה בבתי המלון."
+      },
+      {
+        "area": "ואלטוס / ליכנוס",
+        "note": "חוף ראשון, שקט יותר, חניה נוחה יותר, נסיעה קצרה/מונית-ים לעיר."
+      }
+    ],
+    "logisticsTips": [
+      "העיר העתיקה לא נבנתה לרכבים — כמעט אין חניה בבתי המלון. חניון חינם קרוב לכביש הראשי (ליד תחנת BP), חניונים בתשלום בקצה העיר (~€8/יום), או החנו בחוף ואלטוס וקחו מונית-ים לעיר (~€2 לכיוון).",
+      "פרוובזה (מקורבת, כ-45 דק', כולל חורבות ניקופוליס הרומיות ב-€8) ואיגומניצה (נמל מעבורות בעיקר) הן עצירות אופציונליות בלבד — לא שוות לינה ייעודית."
+    ]
+  },
+  {
+    "id": "metsovo",
+    "name": "מצובו",
+    "region": "אפירוס",
+    "coords": [
+      39.7667,
+      21.1833
+    ],
+    "summary": "עיירת הרים אבן-ועץ על כביש הגישה בין מטאורה ליוואנינה, עיר הבירה ההיסטורית של הרועים הבלאכיים, עם יין וגבינות מסורתיות.",
+    "suggestedStay": "חצי יום עד יום (אפשר גם לילה)",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Metsovo_overview_bgiu.jpg",
+    "attractions": [
+      {
+        "id": "metsovo-square-walk",
+        "name": "הכיכר המרכזית והעיר העתיקה",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.7667,
+          21.1833
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/2/2a/Metsovo_Frourion_Square.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c5/Metsovo-Paraskeva.jpg"
+        ],
+        "description": "\"ולאכים\" (Vlachs) הם קהילת רועים דוברת ניב לטיני-רומאני עתיק, שמצובו הייתה בירתם ההיסטורית באפירוס. בזכות מעמד אוטונומי מיוחד בתקופה העות'מאנית (בדומה לזגוריה) ותרומות מאוחרות יותר של משפחות עשירות כמו אברוף וטוסיצה, נשמרה כאן אדריכלות אבן-ועץ ייחודית שלא נהרסה. הכיכר המרכזית מוקפת מסעדות ומרוכזת סביב כנסיית אגיה פרסקבי עם מגדל הפעמונים בן 25 המ' (נבנה 1880-85, השעון נוסף 1925).",
+        "tips": "אין גישה ברכב לכיכר עצמה — היא הולכת-רגל בפועל. הטיילת המרכזית של העיר העתיקה נחווית ברגל תוך 15-20 דק'."
+      },
+      {
+        "id": "tositsa-museum",
+        "name": "מוזיאון טוסיצה (המוזיאון הפולקלוריסטי)",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 60,
+        "coords": [
+          39.7665,
+          21.183
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/9/9c/Metsovo_inside_of_the_Tositsa_house.jpg"
+        ],
+        "description": "אחוזה אצילית מ-1661, מוזיאון מאז 1955, המציגה את חיי היומיום המסורתיים של הקהילה הבלאכית — ריהוט, בגדים מסורתיים וחפצי בית בבית אבן מרשים.",
+        "tips": "סגור בימי חמישי (מומלץ לוודא מקומית — שעות עלולות להשתנות). קיץ: 9:00-13:30, 16:00-18:00. כניסה €3. טל' 26560 41084."
+      },
+      {
+        "id": "averoff-gallery",
+        "name": "גלריית אברוף לאמנות מודרנית",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          39.766,
+          21.1825
+        ],
+        "images": [],
+        "description": "גלריה שנוסדה ב-1988, כ-250 יצירות ציור ופיסול יווניות מהמאות ה-19-20 (גיזיס, ליטראס, וולנאקיס, מוראליס).",
+        "tips": "פתוח יומיומית 10:00-16:00. סיורים מודרכים בימי שישי/שבת 13:00. טל' 26560 41210."
+      },
+      {
+        "id": "agios-nikolaos-monastery-metsovo",
+        "name": "מנזר אגיוס ניקולאוס",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 45,
+        "coords": [
+          39.76,
+          21.178
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e0/St_Nikolaos_Monastery%2C_Metsovo.jpg"
+        ],
+        "description": "מנזר ביזנטי קטן (יסודות מהמאה ה-14) בגיא מיוער ליד נהר מצוביטיקוס, עם פרסקאות חשובות מ-1702 בסגנון אפירוטי (שני כיפות עם ציורי פנטוקרטור).",
+        "tips": "כניסה חופשית. שעות פתיחה לא מפורסמות רשמית — מומלץ להתקשר למרכז המידע של מצובו לפני הביקור: 26560 41980."
+      },
+      {
+        "id": "katogi-averoff-winery",
+        "name": "יקב קטוגי אברוף",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 60,
+        "coords": [
+          39.755,
+          21.185
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/d/d5/Inside_of_wine_cellar_Metsovo.jpg"
+        ],
+        "description": "אחד היקבים המשמעותיים ביותר היסטורית ביוון — המשפחה מעורבת בייצור יין יווני מאז המאה ה-19, המבנה הנוכחי מהעשור של שנות ה-90. סיור סטנדרטי (כ-30 דק', מרתפים + סרטון על ההיסטוריה והייצור) או סיור מורחב (45 דק', מולטימדיה).",
+        "tips": "פתוח יומיומית 10:00-16:00, סיור אחרון 15:00. מומלץ להזמין טעימה יום מראש: booking.katogiaveroff.gr, +30 2656031490."
+      },
+      {
+        "id": "katara-pass-viewpoint",
+        "name": "מעבר קטארה — תצפית ונסיעה נופית",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          39.7833,
+          21.2167
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/73/Katara_Pass_2.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/a/ac/View_near_Katara_pass_-_panoramio.jpg"
+        ],
+        "description": "המעבר ההררי הכביש הגבוה ביותר ביוון (כ-1,690-1,705 מ'), כ-5 ק\"מ מצפון-מזרח למצובו, על הגבול בין אפירוס לתסליה. רוב התנועה כיום עוברת במנהרת מצובו (כביש מהיר Egnatia Odos) שעוקפת את המעבר — כלומר זו סטייה מכוונת מהמסלול המהיר לצורך הנוף, לא הדרך המהירה. נסגר 2011-2022 לתיקון נזקי סופה ונפתח מחדש; פתוח בקיץ (סגור בשלג בערך ינואר-מרץ, לא רלוונטי לספטמבר).",
+        "tips": "עצירת תמונה קצרה שווה אם יש זמן — לא הכרחי אם ממהרים."
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Batrachos",
+        "note": "מרפסת נוף פנורמי, אח, פטה ביתית, צלעות טלה \"פרוביו\"",
+        "area": "מצובו"
+      },
+      {
+        "name": "Ta Pente Phi",
+        "note": "הטברנה המוכרת ביותר, מבחר בשרים רחב",
+        "area": "מצובו"
+      },
+      {
+        "name": "Koutouki",
+        "note": "טברנה מקומית קטנה, מומלץ כל מנה עם הגבינה המקומית",
+        "area": "מצובו"
+      },
+      {
+        "name": "To Koutouki tou Nikola",
+        "note": "משפחתית, מפורסמת בטלה קלפטיקו",
+        "area": "מצובו"
+      }
+    ],
+    "wineries": [
+      {
+        "name": "Katogi Averoff",
+        "note": "ראו כרטיס אטרקציה למעלה — סיורים וטעימות, הזמנה מראש מומלצת."
+      }
+    ],
+    "lodgingAreas": [
+      {
+        "area": "העיר העתיקה (ליד הכיכר)",
+        "note": "בתי הארחה מאבן עם אח ואופי מקומי, אך חניה מוגבלת ברחובות הצרים ומתמלא בסופ\"ש."
+      },
+      {
+        "area": "קצה העיר",
+        "note": "מלונות מודרניים יותר (למשל Grand Forest Metsovo, מלון היקב Katogi Averoff) — חניה נוחה יותר, הליכה/נסיעה קצרה לכיכר."
+      }
+    ],
+    "logisticsTips": [
+      "מצובו יושבת ממש על הכביש הראשי בין קלמבקה/מטאורה ליוואנינה (יציאה מה-Egnatia Odos) — אין צורך בסטייה מהמסלול כדי לעצור כאן, בניגוד לפליו או צומרקה.",
+      "חניה: החנו לאורך כביש הגישה ליד המתחם ליד מלון Anax, או בחניון ליד מגרש הכדורגל בקצה המערבי — לא ניתן לנסוע עד הכיכר עצמה.",
+      "תדלקו כאן אם ממשיכים לצומרקה — תחנות דלק נדירות מעבר לכביש הראשי."
+    ]
+  },
+  {
+    "id": "tzoumerka",
+    "name": "צומרקה",
+    "region": "אפירוס",
+    "coords": [
+      39.52,
+      21.2
+    ],
+    "summary": "אזור הררי נידח מדרום למצובו, עם כפרי אבן תאומים (סירקו וקלריטס) שהתעשרו מצורפות כסף וזהב, גיא עמוק, וגשר אבן היסטורי — אך דורש סטייה משמעותית מהמסלול הראשי.",
+    "suggestedStay": "1-2 לילות (אם נכלל — ראו אזהרת היתכנות)",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Syrrako-1-general_view.JPG",
+    "attractions": [
+      {
+        "id": "syrrako-village",
+        "name": "כפר סירקו",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.5675,
+          21.1966
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/5/5e/Syrrako-1-general_view.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d1/Syrrako-view-1.JPG"
+        ],
+        "description": "כפר אבן בנוי על שולי צוק בגובה כ-1,150-1,200 מ', מיושב מאז המאה ה-15 על ידי רועים בלאכים. האוכלוסייה צנחה עד 45 תושבים ב-2001 אך התאוששה ל-391 ב-2021 הודות להתחדשות כבתי נופש. מהכפרים הכי דרמטיים ומרוחקים באזור כולו.",
+        "tips": "סמטאות תלולות ומרוצפות — נעליים נוחות מומלצות."
+      },
+      {
+        "id": "kalarrytes-village",
+        "name": "כפר קלריטס",
+        "type": "walk",
+        "mustDo": true,
+        "durationMinutes": 90,
+        "coords": [
+          39.5578,
+          21.1719
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/9/97/Kalarrytes_general_view.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/2/27/Kalarrytes-agia-triada.jpg"
+        ],
+        "description": "כפר אבן בגובה כ-1,150 מ' (כ-193 תושבים, 2021), מפורסם בעושר של צורפי כסף וזהב מהמאה ה-18 — אבותיה של משפחת בולגרי (Bulgari) התכשיטים חיו ועבדו כאן עד 1819. אחוזות סוחרים משומרות היטב וכנסיות אגיה טריאדה ומטמורפוסיס סוטירוס.",
+        "tips": "למרות מרחק של כ-3.6 ק\"מ הליכה מסירקו, נסיעה ברכב בין הכפרים דורשת מסלול מעגלי של כ-18 ק\"מ סביב הגיא."
+      },
+      {
+        "id": "syrrako-kalarrytes-gorge-trail",
+        "name": "מסלול הגיא בין סירקו לקלריטס",
+        "type": "hike",
+        "mustDo": true,
+        "durationMinutes": 120,
+        "coords": [
+          39.5626,
+          21.1843
+        ],
+        "images": [],
+        "hike": {
+          "km": 3.6,
+          "difficulty": "moderate",
+          "elevationGain": 200,
+          "start": "סירקו",
+          "end": "קלריטס"
+        },
+        "description": "ירידה ועלייה של כ-200 מ' לתוך גיא בין שני הכפרים, חוצה גשר ברזל קטן מעל נחל חרוסיה. גרסה ארוכה יותר (כ-12 ק\"מ, 6.5 שעות) קיימת דרך מפלים וטחנת קיאסה ההיסטורית, למי שרוצה יום טרק מלא.",
+        "tips": "המסלול הקצר (3.6 ק\"מ, כשעתיים) מתאים לרמת הליכה קלה-בינונית. זכרו: זו הליכה חד-כיוונית — נדרש תיאום רכב/מונית לחזרה, או הליכה הלוך-חזור."
+      },
+      {
+        "id": "kipina-monastery",
+        "name": "מנזר קיפינה",
+        "type": "site",
+        "mustDo": true,
+        "durationMinutes": 45,
+        "coords": [
+          39.516,
+          21.184
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/ac/Kipinas_Monastery%2C_Tzoumerka.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/7e/MoniKipina.jpg"
+        ],
+        "description": "מנזר דרמטי הבנוי לתוך דופן צוק מעל גיא נהר קלריטיקוס, ליד כפר פראמנטה, מקורו במאה ה-13. הכניסה למערה שמעליה נבנה המנזר מגיעה לעומק של כ-240 מ' עם נטיפים.",
+        "tips": "פתוח 8:30 עד השקיעה. אם השער נעול, אפשר לשאול מפתח בבית הקפה בכפר קיפינה הסמוך. כניסה חופשית/תרומה."
+      },
+      {
+        "id": "plaka-bridge",
+        "name": "גשר פלאקה",
+        "type": "site",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          39.466,
+          21.203
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/0/0d/GEFYRI_PLAKAS_02.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/a3/Plaka-bridge-from-above.jpg"
+        ],
+        "description": "גשר אבן בקשת יחידה מעל נהר אראחטוס, שהיה בזמנו הגדול מסוגו בבלקן. קרס בשיטפון פתאומי בפברואר 2015 ושוחזר במלואו ונפתח מחדש ב-2020 (שיקום משותף של משרד התשתיות והטכניון הלאומי של אתונה). ניצב היום כנקודת תצפית ותמונה.",
+        "tips": "עצירה קצרה בדרך, לא דורשת זמן מיוחד."
+      },
+      {
+        "id": "pramanta-village",
+        "name": "פראמנטה — הכפר המרכזי לשירותים",
+        "type": "walk",
+        "mustDo": false,
+        "durationMinutes": 30,
+        "coords": [
+          39.4936,
+          21.2214
+        ],
+        "images": [],
+        "description": "הכפר המרכזי והמעשי של האזור (כ-840 מ' גובה, כ-800 תושבים) — היחיד עם תחנת דלק, בתי מלון, מסעדות, מאפייה, בית מרקחת וכספומט. לא בהכרח יעד תיירותי בפני עצמו, אך שווה להכיר כנקודת השירותים היחידה באזור.",
+        "tips": "תדלקו כאן אם לא תדלקתם ביוואנינה — תחנות דלק נדירות מעבר לכפר הזה."
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "O Stavraetos",
+        "note": "הטברנה הראשונה בכפר (1976), משפחתית, פשטידות ביתיות",
+        "area": "סירקו"
+      },
+      {
+        "name": "Gkoura Guesthouse",
+        "note": "מנות מקומיות נדיבות במחיר סביר",
+        "area": "סירקו"
+      },
+      {
+        "name": "Akanthos",
+        "note": "קפנדריו מסורתי, קפה, מזה וקציצות",
+        "area": "קלריטס"
+      }
+    ],
+    "wineries": [],
+    "lodgingAreas": [
+      {
+        "area": "סירקו / קלריטס",
+        "note": "הכי אווירתי — בתי הארחה מאבן (למשל בית ספר אבן משופץ בסירקו), אך שירותים ומסעדות מוגבלים וגישה בכביש צר."
+      },
+      {
+        "area": "פראמנטה",
+        "note": "בסיס מעשי יותר — יותר שירותים וגישה נוחה יותר בכביש, פחות אופי כפרי."
+      }
+    ],
+    "logisticsTips": [
+      "⚠️ בדיקת היתכנות: צומרקה דורשת סטייה אמיתית מהמסלול — מיוואנינה זו נסיעה של כ-1:15-1:30 שעות (כ-55 ק\"מ) בכל כיוון על כביש הררי צר, ואין דרך יעילה להמשיך משם לזגוריה בלי לחזור כמעט כל הדרך דרך יוואנינה (עוד כ-2-2.5 שעות נהיגה). בסך הכול זו סטייה גדולה יותר אפילו מפליו — מומלץ רק אם מוכנים להקדיש לילה ייעודי (או שניים) באזור, ולא כעצירה קלה בדרך לזגוריה.",
+      "כבישים הרריים צרים עם עיקולים חדים, חלקים לא סלולים לגמרי — נהיגה איטית, לא מומלץ בחושך או במזג אוויר גרוע.",
+      "תדלקו ביוואנינה או בפראמנטה — אין תחנות דלק בכפרים עצמם.",
+      "ספטמבר הוא עונה טובה — בלי בעיות שלג (בניגוד לחורף/אביב מוקדם)."
+    ]
+  }
+]

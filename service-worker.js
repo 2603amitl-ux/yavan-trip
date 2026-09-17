@@ -1,4 +1,4 @@
-const CACHE_NAME = 'yavan-trip-v5';
+const CACHE_NAME = 'yavan-trip-v6';
 const BASE = new URL('.', self.location.href).href;
 
 const APP_SHELL = [

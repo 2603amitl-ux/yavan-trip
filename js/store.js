@@ -133,6 +133,15 @@ function migrateLegacyState() {
   return state;
 }
 
+// True when every plan on this device is still completely untouched (no blocks added to any
+// day, on any plan). A device that only ever got this far — e.g. it loaded the site once before
+// the trip's default itinerary existed — should still pick up the bundled itinerary rather than
+// stay stuck on the blank state it happened to save first.
+function isStateBlank(state) {
+  return Object.values(state.plans).every((p) =>
+    Object.values(p.days).every((d) => !d.blocks || d.blocks.length === 0));
+}
+
 function loadState() {
   try {
     const raw = localStorage.getItem(PLANS_KEY);
@@ -147,7 +156,13 @@ function loadState() {
           plans[id] = { id, name: p.name || 'מסלול', days: sanitizeDays(p.days) };
         });
         const activeId = order.includes(parsed.activeId) ? parsed.activeId : order[0];
-        return { activeId, order, plans };
+        const state = { activeId, order, plans };
+        if (isStateBlank(state) && DEFAULT_ITINERARY) {
+          const seeded = buildDefaultState();
+          saveState(seeded);
+          return seeded;
+        }
+        return state;
       }
     }
   } catch {
